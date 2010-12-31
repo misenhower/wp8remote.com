@@ -1,4 +1,4 @@
-<? define('KOMO_MARKETPLACE_LINK', 'http'); ?>
+<? define('KOMO_MARKETPLACE_LINK', 'http://social.zune.net/redirect?type=phoneApp&id=65cf6aa1-5503-e011-9264-00237de2db9e'); ?>
 <? define('KOMO_CONTACT_LINK', 'http://komodex.com/contact'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>

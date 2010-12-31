@@ -8,7 +8,7 @@
 			<a href="<?= KOMO_CONTACT_LINK ?>">Contact Us</a>
 		</div>
 <? if (!defined('KOMO_HIDE_BOTTOM_MARKET_LINK')): ?>
-		<a href="<?= KOMO_MARKETPLACE_LINK ?>" style="float:right"><img src="/images/wp7-38.png" /></a>
+		<a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank" style="float:right"><img src="/images/wp7-38.png" /></a>
 <? endif; ?>
 	</div>
 </div>
