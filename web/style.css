@@ -1,0 +1,278 @@
+/* @override 
+	http://wp7remoteapp.com/style.css
+	http://localhost:8888/style.css
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+
+img {
+	border: 0 none;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+body {
+	margin: 0; padding: 0;
+	font: 13px/1.3 "Segoe UI", "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.75em;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.45em;
+	margin: 0.5em 0 0.1em 0;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+ul, ol {
+	margin: 0 0 0 1.5em;
+	list-style-type: square;
+}
+
+.pagetitle {
+	float: right;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.alignbottom {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+.subtle {
+	padding: 0.3em 0 0.5em 0.5em;
+	/*color: #4f5d81;*/
+	color: #5e6172;
+	background-color: #1c1d22;
+	font-size: .9em;
+	/*width: 100%;*/
+	/*width: auto;*/
+}
+
+.subtle h4 {
+	font-weight: bold;
+}
+
+
+p {
+	margin: 0 0 0.6em 0;
+}
+
+a {
+	color: #fff;
+}
+
+.fl {
+	float: left;
+	height: 50%;
+	margin-bottom: -300px;
+	
+}
+
+.content-w {
+	/*width:970px;*/
+	width: 900px;
+	margin: 0 auto;
+	clear: both;
+	/*padding: 10px 0;*/
+}
+
+.longpage .content-w {
+	padding-bottom: 15px;
+}
+
+.head {
+	padding: 30px 0 0 0;
+	margin-bottom: 10px;
+}
+
+.content{
+	position: relative;
+	padding: 10px 10px 20px 10px;
+	/*background-color: #1f1f1f;*/
+	background-color: #131417;
+	/*border: 5px solid #151515;*/
+	border: 5px solid #0e0e11;
+	min-height: 355px;
+	/*height: 355px;
+	overflow: auto;*/
+}
+
+.phonepreview {
+	float: right;
+	margin: -5px -15px -10px 0;
+	width: 327px;
+	height: 595px;
+	background: url(/images/phone-600.png) no-repeat;
+	position: relative;
+	z-index: 1;
+}
+
+.phoneimageslide {
+	margin: 55px 0 0 35px;
+	width: 258px;
+	height: 430px;
+}
+
+.phoneimageslide img {
+	width: 258px;
+	height: 430px;
+}
+
+.phoneimageslidecontrols {
+	position: absolute;
+	top: 270px;
+	width: 100%;
+	z-index: 20;
+}
+
+.phoneimageslidecontrols .l {
+	float: left;
+}
+
+.phoneimageslidecontrols .r {
+	float: right;
+}
+
+/*#slide-right:hover {
+	margin-right: -2px;
+}
+
+#slide-left:hover {
+	margin-left: -2px;
+}*/
+
+.utilitylink {
+	float: right;
+	margin: 30px 5px 0 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.utilitylink a {
+	display: block;
+	padding: 5px 10px;
+	border: 2px solid #fff;
+	text-decoration: none;
+}
+
+.footer {
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	color: #34373e;
+}
+
+.footer a {
+	color: #787f90;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer div {
+	float: left;
+	margin: 10px 0 0 20px;
+	font-size: 12px;
+}
+
+.komolink {
+	float: left;
+	overflow: hidden;
+	padding-left: 6px;
+	border-left: 5px solid #1ba1e2;
+	line-height: 0;
+}
+
+.buttonwrapper {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.buttonwrapper a {
+	text-align: left;
+	text-decoration: none;
+	width: 310px;
+
+	display: inline-block;
+
+	background: #34373e;
+	border: 3px solid #232529;
+	
+	margin: 0 20px;
+	padding: 5px 0 5px 10px;
+}
+
+.buttonwrapper a img {
+	float: left;
+	/*margin: 0 10px 0 0;*/
+}
+
+.buttonwrapper a div {
+	text-align: center;
+}
+
+.buttonwrapper a span {
+	display: block;
+	font-size: .9em;
+	/*line-height: 0;*/
+	line-height: 1em;
+	margin: 0 0 0.2em 0;
+	color: #7c8395;
+}
+
+.buttonwrapper a h3 {
+	/*margin: 8px 0 0 0;*/
+	/*margin: 0;*/
+	/*line-height: 2.25em;*/
+	/*line-height: 1.6em;*/
+	margin: 0.2em 0 0.1em 0;
+	padding: 0;
+	font-size: 1.45em;
+}
+
+.buttonwrapper a:hover h3 {
+	text-decoration: underline;
+}
+
+.clearfix {
+	clear: both;
+	height: 0;
+}
+
+dl {
+	margin: 10px 0 10px 20px;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+dd {
+	margin: 2px 0 10px 20px;
+	color: #ccc;
+}
+
+
+
+
