@@ -16,12 +16,12 @@ $(document).ready(function() {
 <h4>Pairing Utility</h4>
 <dl>
 	<dt>The pairing utility will not open</dt>
-	<dd>On Windows, make sure you have the .NET framework version 3.5 installed. On OS X, make sure you have installed at least the 10.5.8 or 10.6.5 updates.</dd>
-	<dd>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a local network, and on Windows, make sure port 1024 is available.</dd>
+	<dd>On Windows, make sure you have the .NET framework version 3.5 installed. On OS X, make sure you are running OS X version 10.5.8 or 10.6.5 or later.</dd>
+	<dd>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a network, and on Windows, make sure port 1024 is available.</dd>
 	<dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt>
 	<dd>Try disabling any software firewalls that may be running on your machine. On Windows, this may include the Windows Firewall which can be disabled from the Control Panel. On OS X, this may include the built-in firewall that can be disabled from the Security section in System Preferences.</dd>
 	<dt>The pairing code isn't accepted, iTunes gets stuck on "verifying pairing code," and other issues</dt>
-	<dd>Try closing and opening the pairing utility again. If you are still having trouble, you can also try running the pairing utility from another computer on your network.</dd>
+	<dd>Try closing iTunes and the pairing utility and open them again. If iTunes still doesn't see the pairing utility, you can also try running it from another computer on your network.</dd>
 </dl>
 <h4>Phone Connection Issues</h4>
 <dl>
@@ -30,18 +30,18 @@ $(document).ready(function() {
 	<dt>I receive an "Invalid PIN" message</dt>
 	<dd>Please check the PIN to make sure you have entered it correctly. If you still receive this message, try completing the pairing procedure again by closing and re-opening the pairing utility.</dd>
 	<dt>I receive an iTunes version error</dt>
-	<dd>Only iTunes versions 10.1 and later are currently supported by this application.</dd>
+	<dd>Only iTunes versions 10.1 and later are currently supported by this application.  Please update to the latest version of iTunes to fix this issue.</dd>
 </dl>
 <h4>Application Use</h4>
 <dl>
-	<dt>How do I change the track position for the currently playing song?</dt>
+	<dt>How do I change the play position for the current song?</dt>
 	<dd>From the Now Playing page, tap and drag the progress bar beneath the displayed album art.</dd>
 	<dt>How can I change repeat and shuffle settings?</dt>
-	<dd>From the Now Playing page, tap the album art and buttons for Repeat and Shuffle controls will appear.</dd>
+	<dd>From the Now Playing page, tap the album art.  Buttons for Repeat and Shuffle will appear.</dd>
 	<dt>Artist, album, or song information is incorrect</dt>
-	<dd>Please check the song information within iTunes.  There is often additional or incorrect data in the "album artist" field, which can lead to unexpected results in the artist list.</dd>
+	<dd>Please check the song information within iTunes.  Sometimes there is additional or incorrect data in the "album artist" field, which can lead to unexpected results in the artist list.  To fix this, right click the affected song(s) and select "Get Info."</dd>
 	<dt>I cannot browse my podcasts, movies, or TV shows</dt>
-	<dd>These types of media are not supported in the current version of Remote.  We expect to add them in the next release.</dd>
+	<dd>These types of media are not supported in the current version of Remote.  We plan on adding additional media types in the next release of Remote (which will be a free update for anyone who has already purchased the app).</dd>
 </dl>
-<p><strong>If your question isn't addressed here or if you are still having trouble, please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further support.</strong></p>
+<p><strong>If your question isn't answered here or if you are still having trouble, please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further support.</strong></p>
 <? require('footer.php'); ?>
