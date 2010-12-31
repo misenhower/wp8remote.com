@@ -16,8 +16,10 @@ $(document).ready(function() {
 <h4>Pairing Utility</h4>
 <dl>
 	<dt>The pairing utility will not open</dt>
-	<dd>On Windows, make sure you have the .NET framework version 3.5 installed. On OS X, make sure you are running OS X version 10.5.8 or 10.6.5 or later.</dd>
-	<dd>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a network, and on Windows, make sure port 1024 is available.</dd>
+	<dd>
+		<p>On Windows, make sure you have the .NET framework version 3.5 installed. On OS X, make sure you are running OS X version 10.5.8 or 10.6.5 or later.</p>
+		<p>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a network, and on Windows, make sure port 1024 is available.</p>
+	</dd>
 	<dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt>
 	<dd>Try disabling any software firewalls that may be running on your machine. On Windows, this may include the Windows Firewall which can be disabled from the Control Panel. On OS X, this may include the built-in firewall that can be disabled from the Security section in System Preferences.</dd>
 	<dt>The pairing code isn't accepted, iTunes gets stuck on "verifying pairing code," and other issues</dt>

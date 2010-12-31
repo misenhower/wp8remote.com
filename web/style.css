@@ -278,11 +278,13 @@ dl {
 
 dt {
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1.05em;
 }
 
 dd {
-	margin: 2px 0 10px 20px;
+	margin: 4px 0 10px 20px;
+	padding: 0 0 1px 10px;
 	color: #ccc;
+	border-left: 1px solid #444852;
 }
 
