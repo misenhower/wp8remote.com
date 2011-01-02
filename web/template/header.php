@@ -15,6 +15,8 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 </script>
 <script type="text/javascript" src="http://komodex.com/wordpress/wp-content/themes/komodex/js/unitpngfix.js"></script>
 <![endif]-->
+<meta name="description" content="With Remote, you can control iTunes from your Windows Phone 7 device.">
+<meta name="keywords" content="iTunes, remote, windows phone 7, iTunes remote, windows phone 7 app">
 </head>
 
 <? if (!defined('KOMO_LONGPAGE')): ?>
