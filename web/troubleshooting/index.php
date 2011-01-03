@@ -13,6 +13,20 @@ $(document).ready(function() {
 <h2>Troubleshooting</h2>
 <p>To configure iTunes to allow connections from your phone, please <a href="/utility">download the pairing utility</a>.  If you have any trouble using this utility or connecting your phone, please try the steps below or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further assistance.</p>
 <h3>FAQs</h3>
+<h4>Phone Connection Issues</h4>
+<dl>
+	<dt>I receive a "Connection Error" message</dt>
+	<dd>
+		<p>First, make sure your phone is connected to your local network via Wi-fi.  Verify that you have entered the host displayed within the Pairing Utility correctly, without any extra spaces or other characters.</p>
+		<p>On some networks, it may be necessary to add ".local" to the end of the host, such as "mycomputer.local".</p>
+		<!-- <p></p> -->
+		<p>Also please see these support documents from Apple: <a href="http://support.apple.com/kb/HT1947" target="_blank">Initial Setup</a> and <a href="http://support.apple.com/kb/TS1741" target="_blank">Connectivity Issues</a>.</p>
+	</dd>
+	<dt>I receive an "Invalid PIN" message</dt>
+	<dd>Please check the PIN to make sure you have entered it correctly. If you still receive this message, try completing the pairing procedure again by closing and re-opening the pairing utility.</dd>
+	<dt>I receive an iTunes version error</dt>
+	<dd>Only iTunes versions 10.1 and later are currently supported by this application.  Please update to the latest version of iTunes to fix this issue.</dd>
+</dl>
 <h4>Pairing Utility</h4>
 <dl>
 	<dt>The pairing utility will not open</dt>
@@ -24,15 +38,6 @@ $(document).ready(function() {
 	<dd>Try disabling any software firewalls that may be running on your machine. On Windows this may include the Windows Firewall which can be disabled from the Control Panel. On OS X this may include the built-in firewall that can be disabled from the Security section in System Preferences.</dd>
 	<dt>The pairing code isn't accepted, iTunes gets stuck on "verifying pairing code," and other issues</dt>
 	<dd>Try closing iTunes and the pairing utility and open them again. If iTunes still doesn't see the pairing utility, you can also try running it from another computer on your network.</dd>
-</dl>
-<h4>Phone Connection Issues</h4>
-<dl>
-	<dt>I receive a "Connection Error" message</dt>
-	<dd>Please make sure your phone is connected to your local network via Wi-fi.  Also make sure you have entered the host displayed within the Pairing Utility correctly.  On some networks, it may be necessary to add ".local" to the end of the host, such as "mycomputer.local".</dd>
-	<dt>I receive an "Invalid PIN" message</dt>
-	<dd>Please check the PIN to make sure you have entered it correctly. If you still receive this message, try completing the pairing procedure again by closing and re-opening the pairing utility.</dd>
-	<dt>I receive an iTunes version error</dt>
-	<dd>Only iTunes versions 10.1 and later are currently supported by this application.  Please update to the latest version of iTunes to fix this issue.</dd>
 </dl>
 <h4>Application Use</h4>
 <dl>
