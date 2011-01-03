@@ -288,3 +288,22 @@ dd {
 	border-left: 1px solid #444852;
 }
 
+.twitterlink a:hover {
+	text-decoration: none;
+}
+
+.twitterlink a span.i {
+	display: inline-block;
+	background: url(/images/twitter.png) no-repeat 0 0;
+	width: 20px;
+	bxorder: 1px solid #f00;
+}
+
+.twitterlink a:hover span.i {
+	background-position: 0 -26px;
+}
+
+.twitterlink a:hover span.t {
+	text-decoration: underline;
+}
+
