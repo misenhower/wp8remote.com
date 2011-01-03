@@ -12,7 +12,7 @@
 		<div>
 			<h3>Download for Windows</h3>
 			<span>Supports Windows XP, Vista, and 7</span>
-			<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.1</span>
+			<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.2</span>
 		</div>
 	</a>
 	<a href="/files/Mac_iTunesPairingUtility.zip">
