@@ -18,8 +18,8 @@ $(document).ready(function() {
 	<dt>I receive a "Connection Error" message</dt>
 	<dd>
 		<p>First, make sure your phone is connected to your local network via Wi-fi.  Verify that you have entered the host displayed within the Pairing Utility correctly, without any extra spaces or other characters.</p>
-		<p>On some networks, it may be necessary to add ".local" to the end of the host, such as "mycomputer.local".</p>
-		<!-- <p></p> -->
+		<!-- <p>On some networks, it may be necessary to add ".local" to the end of the host, such as "mycomputer.local".</p> -->
+		<p>On some networks, it may be necessary to use the computer's IP address instead of its host name. Click the "IP" button on the last page of the Pairing Utility to toggle between showing the computer's IP and its host name.</p>
 		<p>Also please see these support documents from Apple: <a href="http://support.apple.com/kb/HT1947" target="_blank">Initial Setup</a> and <a href="http://support.apple.com/kb/TS1741" target="_blank">Connectivity Issues</a>.</p>
 	</dd>
 	<dt>I receive an "Invalid PIN" message</dt>
