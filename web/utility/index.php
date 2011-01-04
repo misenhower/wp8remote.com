@@ -15,12 +15,12 @@
 			<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.3</span>
 		</div>
 	</a>
-	<a href="/files/Mac_iTunesPairingUtility_1.0.1.zip">
+	<a href="/files/Mac_iTunesPairingUtility_1.0.2.zip">
 		<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Mac OS X</h3>
 			<span>Supports OS X 10.5.8+ and 10.6.5+</span>
-			<span>332kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.1</span>
+			<span>332kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.2</span>
 		</div>
 	</a>
 </div>
