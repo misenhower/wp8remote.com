@@ -8,7 +8,7 @@
 <p>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.
 <div class="buttonwrapper">
 	<a href="/files/Win_iTunesPairingUtility_1.0.3.exe">
-		<img src="/images/dl-win.png" width="60" height="64" />
+		<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Windows</h3>
 			<span>Supports Windows XP, Vista, and 7</span>
@@ -16,7 +16,7 @@
 		</div>
 	</a>
 	<a href="/files/Mac_iTunesPairingUtility_1.0.1.zip">
-		<img src="/images/dl-mac.png" width="60" height="64" />
+		<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Mac OS X</h3>
 			<span>Supports OS X 10.5.8+ and 10.6.5+</span>
