@@ -2,10 +2,10 @@
 <? define('KOMO_TITLE', 'Pairing Utility'); ?>
 <? require('header.php'); ?>
 <h2>Download Pairing Utility</h2>
-<p>This utility configures iTunes to allow connections from your phone.  No installation is necessary, just run the utility and follow the displayed instructions.</p>
-<p>Your phone must be connected to your local network via Wi-fi to control iTunes.</p>
+<p>This utility configures iTunes to allow connections from your phone.  No installation is necessary, just run the utility and follow the displayed instructions.  Once you have paired your phone with iTunes, the Pairing Utility is no longer needed and can be deleted from your computer.</p>
 <h3>Troubleshooting and Support</h3>
-<p>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.
+<p>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</p>
+<p>Your phone must be connected to your local network via Wi-fi to control iTunes.</p>
 <div class="buttonwrapper">
 	<a href="/files/Win_iTunesPairingUtility_1.0.3.exe">
 		<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
