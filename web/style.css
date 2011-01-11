@@ -207,6 +207,14 @@ a:hover {
 	font-size: 12px;
 }
 
+.footer div.copy {
+	font-size:0.85em;
+	clear:both;
+	margin:0;
+	padding: 0.5em 0;
+	width:100%;
+}
+
 .komolink {
 	float: left;
 	overflow: hidden;
