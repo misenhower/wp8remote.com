@@ -31,8 +31,7 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 	<div class="phonepreview unitPng" id="phone">
 		<div id="s1" class="phoneimageslide">
 			<img src="/images/ss/01.png" />
-			<!-- <img src="/images/ss/02.png" style="display:none;" /> -->
-			<img src="/images/ss/02b.png" style="display:none;" />
+			<img src="/images/ss/02.png" style="display:none;" />
 			<img src="/images/ss/03.png" style="display:none;" />
 			<img src="/images/ss/04.png" style="display:none;" />
 			<img src="/images/ss/05.png" style="display:none;" />
