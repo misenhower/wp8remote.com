@@ -5,10 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>iTunes Remote for Windows Phone 7<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
-<link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js"></script>
 <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<!-- Mobile -->
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen and (max-device-width: 480px)" />
+<!--[if IEMobile 7]>
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen"  />
+<![endif]-->
 <!--[if lte IE 6]>
 <script type="text/javascript">
 var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.gif";
