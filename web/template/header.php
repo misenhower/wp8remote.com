@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>iTunes Remote for Windows Phone 7</title>
+<title>iTunes Remote for Windows Phone 7<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
 <link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js"></script>

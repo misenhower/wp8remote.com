@@ -3,9 +3,10 @@
 		<a href="http://komodex.com/" class="komolink"><img src="/images/komodex-38.png" /></a>
 		<div>
 			<a href="/">Home</a> -
+			<a href="/news">News</a> -
 			<a href="/utility">Pairing Utility</a> -
 			<a href="/troubleshooting">Troubleshooting</a> -
-			<a href="<?= KOMO_CONTACT_LINK ?>">Contact Us</a> -
+			<a href="<?= KOMO_CONTACT_LINK ?>">Contact</a> -
 			<span class="twitterlink">
 				<a href="http://twitter.com/WP7Remote">
 					<span class="i unitPng">&nbsp;</span>
