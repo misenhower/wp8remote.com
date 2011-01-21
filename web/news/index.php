@@ -5,7 +5,7 @@
 <h2>Product News &amp; Updates</h2>
 <h3>Version 1.1</h3>
 <ul>
-	<li><strong>Added AirPlay control support.</strong></li>
+	<li><strong>Added AirPlay control support.</strong> Tap the icon next to the volume bar on the Now Playing page to control which speakers iTunes sends music to.</li>
 	<li><strong>Added movies, TV shows, and podcasts.</strong></li>
 	<li>Fixed issue where the reconnecting screen would appear approx. every 60 seconds.</li>
 	<li>Fixed issues with changing the volume and play position on slower networks.</li>
