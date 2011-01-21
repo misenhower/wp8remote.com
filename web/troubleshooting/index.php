@@ -50,10 +50,10 @@ $(document).ready(function() {
 	<dd>From the Now Playing page, tap and drag the progress bar beneath the displayed album art.</dd>
 	<dt>How can I change repeat and shuffle settings?</dt>
 	<dd>From the Now Playing page, tap the album art.  Buttons for Repeat and Shuffle will appear.</dd>
+	<dt>How do I browse movies, TV shows, and podcasts?</dt>
+	<dd>From the Browse Library page, tap the "More" button in the Application Bar at the bottom of the screen. (This button has an icon with three dots.)</dd>
 	<dt>Artist, album, or song information is incorrect</dt>
 	<dd>Please check the song information within iTunes.  Sometimes there is additional or incorrect data in the "album artist" field, which can lead to unexpected results in the artist list.  To fix this, right click the affected song(s) and select "Get Info."</dd>
-	<dt>I cannot browse my podcasts, movies, or TV shows</dt>
-	<dd>These types of media are not supported in the current version of Remote.  We plan on adding additional media types in the next release of Remote (which will be a free update for anyone who has already purchased the app).</dd>
 </dl>
 <p><strong>If your question isn't answered here or if you are still having trouble, please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further support.</strong></p>
 <? require('footer.php'); ?>
