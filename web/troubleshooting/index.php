@@ -32,7 +32,7 @@ $(document).ready(function() {
 	<dt>The pairing utility will not open</dt>
 	<dd>
 		<p>On Windows, make sure you have the <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7" target="_blank">.NET framework version 3.5</a> installed. On OS X, make sure you are running OS X version 10.5.8 or 10.6.5 or later.</p>
-		<p>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a network, and on Windows, make sure port 1024 is available.</p>
+		<p>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a local area network and try disabling any firewall or security software you may be running.</p>
 	</dd>
 	<dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt>
 	<dd>
