@@ -7,12 +7,12 @@
 <p>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</p>
 <p>Your phone must be connected to your local network via Wi-fi to control iTunes.</p>
 <div class="buttonwrapper">
-	<a href="/files/Win_iTunesPairingUtility_1.0.5.exe">
+	<a href="/files/Win_iTunesPairingUtility_1.0.6.exe">
 		<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Windows</h3>
 			<span>Supports Windows XP, Vista, and 7</span>
-			<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.5</span>
+			<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.6</span>
 		</div>
 	</a>
 	<a href="/files/Mac_iTunesPairingUtility_1.0.2.zip">
