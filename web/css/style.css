@@ -1,6 +1,6 @@
 /* @override 
-	http://wp7remoteapp.com/style.css
-	http://localhost:8888/style.css
+	http://wp7remoteapp.com/css/style.css
+	http://localhost:8888/css/style.css
 */
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
@@ -325,5 +325,218 @@ dd {
 
 .twitterlink a:hover span.t {
 	text-decoration: underline;
+}
+
+/* Help Section */
+.helplinks {
+
+}
+
+.hl1 {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.hl2 {
+	float: right;
+	position: relative; /* IE6 */
+}
+
+.helplinks .inner {
+	background: #1d1f23;
+	padding: 5px 5px 5px 0;
+	display: inline-block;
+}
+
+.helplinks .inst {
+	display: inline-block;
+	text-align: left;
+	margin: 10px 10px 0 15px;
+}
+
+.helplinks .inst span {
+	font-size: 0.9em;
+	color: #7c8395;
+}
+
+.helplinks .app {
+	width: 110px;
+	height: 76px;
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+}
+
+.helplinks .app a.main {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+
+	/*width: 110px;*/
+	/*width:100%;*/
+	height: 70px;
+	
+	padding: 6px 0 0 0;
+	background: #24262b;
+}
+
+.helplinks .selected a.main {
+	background: #34373e;
+}
+
+/*.helplinks .app a.fakehover,*/
+.helplinks .fakehover a.main,
+.helplinks .app a:hover {
+	background: #40444d;
+}
+
+.helplinks a.main span {
+	display: block;
+	font-size: .9em;
+	line-height: 1em;
+	/*margin: 00em 0 0 0;*/
+	/*line-height: 0;*/
+	margin-top:0.3em;
+	color: #7c8395;
+}
+
+.helplinks .selected a.main span,
+.helplinks a.main:hover span {
+	color: #fff;
+}
+
+.helplinks .app .right {
+	margin: 0 0 0 -6px;
+	padding: 0 1px 0 5px;
+	float: right;
+	/*position: absolute;
+	right: 0;*/
+	clear: both;
+	height: 38px;
+	/*border: 1px solid #f00;*/
+	/*background: #1d1f23;*/
+}
+
+.helplinks .fakehover .right {
+	background: #34373e;
+	/*border-left: 1px solid #f00;
+	padding-left: 4px;*/
+	border-left: 1px solid #1d1f23;
+	/*border-top: 1px solid #1d1f23;*/
+	padding-left: 4px;
+	/*margin-top: -1px;*/
+}
+
+.helplinks .fakehover .winselector {
+	border-bottom: 1px solid #1d1f23;
+		/*border-bottom: 1px solid #f0f;*/
+	height: 37px;
+	/*background-color: #f00 !important;*/
+}
+.helplinks .app .right img {
+	margin: 11px 4px 0 0;
+}
+.helplinks .fakehover .macselector {
+	border-top: 1px solid #1d1f23;
+	/*height: 37px;*/
+	/*margin-top: -1px*/
+		height: 37px;
+}
+.helplinks .fakehover .macselector img {
+	margin-top: 10px;
+}
+
+.helplinks .fakehover .winselector.unsel,
+.helplinks .fakehover .macselector.unsel {
+
+}
+
+.helplinks .app a.right:hover {
+	/*border-top: 1px solid #1d1f23;
+	border-bottom: 1px solid #1d1f23;
+	margin-top: -1px;*/
+	/*margin-bottom: -1px;*/
+	/*padding-bottom: -1px;*/
+
+	border-left: none;
+	padding-left: 5px;
+	/*z-index: 10;*/
+	border-top: none;
+	border-bottom: none;
+	height: 38px;
+	margin-top: 0;
+}
+
+.helplinks .app a.right:hover img {
+	margin-top: 11px;
+}
+
+.helplinks .app .unsel {
+	/*background: #34373e;*/
+	background: #1d1f23;
+	/*border-left: 1px solid #1d1f23;
+	padding-left: 4px;*/
+	/*z-index:5;*/
+}
+
+
+
+
+
+/*.instructions {
+	overflow: hidden;
+}*/
+
+.instructions .step {
+	clear: both;
+	overflow: hidden; /* Float Clear */
+	width: 100%; /* IE6 */
+}
+
+/*.instructions .step .content {
+	float: left;
+	border: 1px solid #f00;
+}*/
+
+.instructions h3 {
+	clear: none;
+	border-bottom: 1px solid #7c8395;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+}
+
+.instructions h4 {
+	/*clear: both;*/
+	font-weight: bold;
+	color: #ffb1b1;
+}
+
+.instructions .step div.img {
+	position: relative;
+	float: right;
+
+	/*clear: both;*/
+	background: #34373e;
+	width: 410px;
+	height: 310px;
+	/*padding: 5px;*/
+	/*text-align: left;*/
+	margin: 0 0 10px 10px;
+	/*border: 1px solid #f00;*/
+}
+
+.instructions .step div.img img.abs,
+.instructions .step div.img div.abs {
+	display: block;
+	position: absolute;
+	margin: 5px;
+		/*border: 1px solid #f0f;*/
+}
+
+.instructions div.details {
+	padding-left: 15px;
+	position: relative;
 }
 
