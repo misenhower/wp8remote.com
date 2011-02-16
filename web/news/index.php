@@ -3,6 +3,17 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.3</h3>
+<ul>
+	<li>
+		<strong>Added support for Foobar2000 and MediaMonkey.</strong>
+		Requires <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> for Foobar2000
+		or <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> for MediaMonkey.
+	</li>
+	<li>Fixed crash with empty artist names.</li>
+	<li>Misc. bug fixes</li>
+</ul>
+<hr />
 <h3>Version 1.2</h3>
 <ul>
 	<li><strong>Added option to stay connected to iTunes while the phone is locked.</strong></li>
