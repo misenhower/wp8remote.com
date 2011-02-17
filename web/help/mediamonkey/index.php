@@ -38,47 +38,62 @@ var showIPaddresses = false;
 <div class="instructions">
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil1.png" class="abs win" />
+	<img src="/images/instructions/mediamonkey-monkeytunesinstall.png" class="abs win" />
 </div>
-<h3>1. Download and run the Pairing Utility</h3>
+<h3>1. Download and install <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a></h3>
+<div class="details">
+	<a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> is a commercial plugin for MediaMonkey written by <a href="http://melloware.com/" target="_blank">Melloware</a>.  A fully-functional trial version is available.  <!--This plugin also allows you to use other compatible remote applications (for iOS and Android devices) with MediaMonkey.-->
+</div>
+<div class="details">
+	Remote for WP7 requires MonkeyTunes 1.5.0 or later for full compatibility.
+</div>
+<div class="details">
+	After the MonkeyTunes installations has completed, open MediaMonkey to continue.
+</div>
+</div>
+<div class="step">
+<div class="img">
+	<img src="/images/instructions/mediamonkey-pairingutil1.png" class="abs win" />
+</div>
+<h3>2. Download and run the Pairing Utility</h3>
 <div class="details"><a href="#">Click here</a> to download the Pairing Utility.  After downloading, open or run the utility.</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-wp7d1.png" class="abs win" />
+	<img src="/images/instructions/mediamonkey-wp7d1.png" class="abs win" />
 </div>
-<h3>2. Click "Windows Phone 7 Device" in iTunes</h3>
-<div class="details">This will appear under the "Devices" header on the left side of the window.</div>
-</div>
-
-<div class="step">
-<div class="img">
-	<img src="/images/instructions/itunes-win-wp7d2.png" class="abs win" />
-</div>
-<h3>3. Type the PIN from the Pairing Utility into iTunes</h3>
+<h3>3. Click "Windows Phone 7 Device" in MediaMonkey</h3>
+<div class="details">This will appear under the "MonkeyTunes" header on the left side of the window.</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil2.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-pairingutil3.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/mediamonkey-wp7d2.png" class="abs win" />
 </div>
-<h3>4. Confirm that pairing completed successfully</h3>
+<h3>4. Type the PIN from the Pairing Utility into MonkeyTunes</h3>
+</div>
+
+<div class="step">
+<div class="img">
+	<img src="/images/instructions/mediamonkey-pairingutil2.png" class="abs win" />
+	<img src="/images/instructions/mediamonkey-pairingutil3.png" class="abs win ip" style="display:none;" />
+</div>
+<h3>5. Confirm that pairing completed successfully</h3>
 </div>
 
 <div class="step">
 <div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
-<h3>5. Open Remote on your phone and tap "Add Library"</h3>
+<h3>6. Open Remote on your phone and tap "Add Library"</h3>
 <div class="details">Remote should appear in the list of applications on your phone.  If you haven't purchased Remote yet, you can use the following link to open its Marketplace page:</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-phonehost.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-phoneip.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/mediamonkey-phonehost.png" class="abs win" />
+	<img src="/images/instructions/mediamonkey-phoneip.png" class="abs win ip" style="display:none;" />
 </div>
-<h3>6. Enter the host and PIN and tap "Save"</h3>
+<h3>7. Enter the host and PIN and tap "Save"</h3>
 <div class="details">The phone will save the library details and connect to iTunes.</div>
 <div class="details">
 	<h4><a href="#" id="qIPa">I receive a "connection error" message</a></h4>
