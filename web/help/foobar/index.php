@@ -95,7 +95,7 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
-<h3>7. Open Remote on your phone and tap "Add Library"</h3>
+<h3>7. Open Remote and tap "Add Library"</h3>
 <div class="details">
 	Remote will appear in the list of applications on your phone.
 	<br /><br />
