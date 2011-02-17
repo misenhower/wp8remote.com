@@ -37,48 +37,80 @@ var showIPaddresses = false;
 </div>
 <div class="instructions">
 <div class="step">
-<div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil1.png" class="abs win" />
-</div>
-<h3>1. Download and run the Pairing Utility</h3>
-<div class="details"><a href="#">Click here</a> to download the Pairing Utility.  After downloading, open or run the utility.</div>
-</div>
-
-<div class="step">
-<div class="img">
-	<img src="/images/instructions/itunes-win-wp7d1.png" class="abs win" />
-</div>
-<h3>2. Click "Windows Phone 7 Device" in iTunes</h3>
-<div class="details">This will appear under the "Devices" header on the left side of the window.</div>
+<h3>1. Download and install <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a></h3>
+<div class="details"><a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> is a free (donations accepted) plugin for Foobar2000.</div>
+<div class="details">Remote for WP7 requires foo_touchremote 0.2.4 or later for full compatibility.</div>
+<div class="details">After installing foo_touchremote, open Foobar2000.</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-wp7d2.png" class="abs win" />
+	<img src="/images/instructions/foobar-pairingutil1.png" class="abs win" />
 </div>
-<h3>3. Type the PIN from the Pairing Utility into iTunes</h3>
+<h3>2. Download and run the Pairing Utility</h3>
+<div class="buttonwrapper" style="margin:20px 0 0 42px; position:relative; font-size:0.95em;">
+<a href="/files/Win_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
+	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
+	<div>
+		<h3>Download for Windows</h3>
+		<span>Supports Windows XP, Vista, and 7</span>
+		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
+	</div>
+</a>
+</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil2.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-pairingutil3.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/foobar-wp7d1.png" class="abs win" />
 </div>
-<h3>4. Confirm that pairing completed successfully</h3>
+<h3>3. Open the Foobar2000 Preferences window</h3>
+<div class="details">Select <strong>Library</strong> &rarr; <strong>Configure</strong> from the menu bar.</div>
+</div>
+
+<div class="step">
+<div class="img">
+	<img src="/images/instructions/foobar-wp7d2.png" class="abs win" />
+</div>
+<h3>4. Open the Touch Remote pane and click "Add a new device"</h3>
+<div class="details">On the left side of the Preferences window, select <strong>Media Library</strong> &rarr; <strong>Remote for iPhone</strong>.  Click the button that says <strong>Add a new device</strong> to continue.</div>
+</div>
+
+<div class="step">
+<div class="img">
+	<img src="/images/instructions/foobar-wp7d3.png" class="abs win" />
+</div>
+<h3>5. Enter the passcode from the Pairing Utility</h3>
+<div class="details">"Windows Phone 7 Device" will appear in the Devices list after entering the correct passcode.</div>
+</div>
+
+<div class="step">
+<div class="img">
+	<img src="/images/instructions/foobar-pairingutil2.png" class="abs win" />
+	<img src="/images/instructions/foobar-pairingutil3.png" class="abs win ip" style="display:none;" />
+</div>
+<h3>6. Confirm that pairing completed successfully</h3>
+<div class="details">The Pairing Utility will display your computer's host name and a PIN to be entered on your phone.</div>
 </div>
 
 <div class="step">
 <div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
-<h3>5. Open Remote on your phone and tap "Add Library"</h3>
-<div class="details">Remote should appear in the list of applications on your phone.  If you haven't purchased Remote yet, you can use the following link to open its Marketplace page:</div>
+<h3>7. Open Remote on your phone and tap "Add Library"</h3>
+<div class="details">
+	Remote will appear in the list of applications on your phone.
+	<br /><br />
+	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
+<div align="center" style="margin: 20px 0;"><a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/wp7_English_300x50_blue.png" /></a></div>
+</div>
+
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-phonehost.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-phoneip.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/foobar-phonehost.png" class="abs win" />
+	<img src="/images/instructions/foobar-phoneip.png" class="abs win ip" style="display:none;" />
 </div>
-<h3>6. Enter the host and PIN and tap "Save"</h3>
+<h3>8. Enter the host and PIN and tap "Save"</h3>
 <div class="details">The phone will save the library details and connect to iTunes.</div>
 <div class="details">
 	<h4><a href="#" id="qIPa">I receive a "connection error" message</a></h4>
