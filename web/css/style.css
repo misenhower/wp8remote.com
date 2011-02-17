@@ -246,7 +246,18 @@ a:hover {
 }
 
 .buttonwrapper {
+	
+}
+
+.bw1 {
 	text-align: center;
+}
+
+.bw2 {
+	text-align: left;
+	margin:20px 0 0 42px;
+	position:relative;
+	font-size:0.95em;
 }
 
 .buttonwrapper a {
@@ -344,7 +355,7 @@ dd {
 
 .hl1 {
 	text-align: center;
-	margin: 25px 0 10px;
+	margin: 25px 0 20px;
 }
 
 .hl2 {
@@ -478,6 +489,7 @@ dd {
 	clear: both;
 	overflow: hidden; /* Float Clear */
 	width: 100%; /* IE6 */
+	position: relative; /* Partial fix for IE6 */
 }
 
 .instructions h3 {

@@ -88,7 +88,7 @@ $(document).ready(function() {
 	<img src="/images/instructions/itunes-mac-pairingutil1.png" class="abs mac" <?= $mac ?> />
 </div>
 <h3>1. Download and run the Pairing Utility</h3>
-<div class="buttonwrapper" style="margin:20px 0 0 42px; position:relative; font-size:0.95em;">
+<div class="buttonwrapper bw2">
 <a href="/files/Win_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
 	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 	<div>
