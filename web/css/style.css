@@ -348,7 +348,6 @@ dd {
 }
 
 .hl2 {
-	/*fxloat: right;*/
 	position: relative; /* IE6 */
 }
 
@@ -391,8 +390,6 @@ dd {
 	text-decoration: none;
 	display: block;
 
-	/*width: 110px;*/
-	/*width:100%;*/
 	height: 70px;
 	
 	padding: 6px 0 0 0;
@@ -403,7 +400,6 @@ dd {
 	background: #34373e;
 }
 
-/*.helplinks .app a.fakehover,*/
 .helplinks .fakehover a.main,
 .helplinks .app a:hover {
 	background: #40444d;
@@ -413,8 +409,6 @@ dd {
 	display: block;
 	font-size: .9em;
 	line-height: 1em;
-	/*margin: 00em 0 0 0;*/
-	/*line-height: 0;*/
 	margin-top:0.3em;
 	color: #7c8395;
 }
@@ -428,38 +422,26 @@ dd {
 	margin: 0 0 0 -6px;
 	padding: 0 1px 0 5px;
 	float: right;
-	/*position: absolute;
-	right: 0;*/
 	clear: both;
 	height: 38px;
-	/*border: 1px solid #f00;*/
-	/*background: #1d1f23;*/
 }
 
 .helplinks .fakehover .right {
 	background: #34373e;
-	/*border-left: 1px solid #f00;
-	padding-left: 4px;*/
 	border-left: 1px solid #1d1f23;
-	/*border-top: 1px solid #1d1f23;*/
 	padding-left: 4px;
-	/*margin-top: -1px;*/
 }
 
 .helplinks .fakehover .winselector {
 	border-bottom: 1px solid #1d1f23;
-		/*border-bottom: 1px solid #f0f;*/
 	height: 37px;
-	/*background-color: #f00 !important;*/
 }
 .helplinks .app .right img {
 	margin: 11px 4px 0 0;
 }
 .helplinks .fakehover .macselector {
 	border-top: 1px solid #1d1f23;
-	/*height: 37px;*/
-	/*margin-top: -1px*/
-		height: 37px;
+	height: 37px;
 }
 .helplinks .fakehover .macselector img {
 	margin-top: 10px;
@@ -471,15 +453,8 @@ dd {
 }
 
 .helplinks .app a.right:hover {
-	/*border-top: 1px solid #1d1f23;
-	border-bottom: 1px solid #1d1f23;
-	margin-top: -1px;*/
-	/*margin-bottom: -1px;*/
-	/*padding-bottom: -1px;*/
-
 	border-left: none;
 	padding-left: 5px;
-	/*z-index: 10;*/
 	border-top: none;
 	border-bottom: none;
 	height: 38px;
@@ -491,11 +466,7 @@ dd {
 }
 
 .helplinks .app .unsel {
-	/*background: #34373e;*/
 	background: #1d1f23;
-	/*border-left: 1px solid #1d1f23;
-	padding-left: 4px;*/
-	/*z-index:5;*/
 }
 
 
@@ -503,21 +474,11 @@ dd {
 	margin-bottom: 20px;
 }
 
-
-/*.instructions {
-	overflow: hidden;
-}*/
-
 .instructions .step {
 	clear: both;
 	overflow: hidden; /* Float Clear */
 	width: 100%; /* IE6 */
 }
-
-/*.instructions .step .content {
-	float: left;
-	border: 1px solid #f00;
-}*/
 
 .instructions h3 {
 	clear: none;
@@ -528,9 +489,7 @@ dd {
 }
 
 .instructions h4 {
-	/*clear: both;*/
 	font-weight: bold;
-	/*color: #ffb1b1;*/
 	color: #fff;
 	font-size: 1.05em;
 	margin-left: 6px;
@@ -547,21 +506,14 @@ dd {
 	position: relative;
 	float: right;
 
-	/*clear: both;*/
 	background: #34373e;
 	width: 410px;
 	height: 310px;
-	/*padding: 5px;*/
-	/*text-align: left;*/
 	margin: 0 0 10px 10px;
-	/*border: 1px solid #f00;*/
 }
 
 .instructions .step div.img img.abs {
-	/*display: block;*/
 	position: absolute;
-	
-		/*border: 1px solid #f0f;*/
 }
 
 .instructions .step div.img div.abs {
@@ -571,12 +523,6 @@ dd {
 .instructions .step div.img img.abs {
 	margin: 5px;
 }
-
-/*.instructions .step div.img div.abs img.abs {
-	display: block;
-	position: absolute;
-	margin: 0;
-}*/
 
 .instructions div.details {
 	padding-left: 15px;

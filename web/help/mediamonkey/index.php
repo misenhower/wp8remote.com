@@ -136,4 +136,5 @@ var showIPaddresses = false;
 </div>
 </div>
 </div>
+<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
 <? require('footer.php'); ?>
