@@ -56,13 +56,13 @@ var showIPaddresses = false;
 	<img src="/images/instructions/mediamonkey-pairingutil1.png" class="abs win" />
 </div>
 <h3>2. Download and run the Pairing Utility</h3>
-<div class="buttonwrapper" style="margin:20px 0;">
-<a href="/files/Win_iTunesPairingUtility_1.0.6.exe">
+<div class="buttonwrapper" style="margin:20px 0 0 42px; position:relative; font-size:0.95em;">
+<a href="/files/Win_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
 	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Windows</h3>
 		<span>Supports Windows XP, Vista, and 7</span>
-		<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.6</span>
+		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 	</div>
 </a>
 </div>
