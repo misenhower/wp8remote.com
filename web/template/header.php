@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>iTunes Remote for Windows Phone 7<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
+<title>Remote for Windows Phone 7<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js"></script>
@@ -66,7 +66,11 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 	</div>
 <? endif; ?>
 	<div class="head">
-<? if (defined('KOMO_TITLE')): ?>
+<? if (defined('KOMO_PAGETITLE')): ?>
+		<div class="pagetitle">
+			<?= KOMO_PAGETITLE ?>
+		</div>
+<? elseif (defined('KOMO_TITLE')): ?>
 		<div class="pagetitle">
 			<?= KOMO_TITLE ?>
 		</div>

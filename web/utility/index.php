@@ -33,19 +33,19 @@
 			<span>Select an application:</span>
 		</span><!--
 	 --><span class="app">
-			<a href="#" class="main">
+			<a href="/help/itunes/" class="main">
 				<img src="/images/app-itunes.png" class="unitPng" />
 				<span>iTunes</span><!--
 		 --></a>
 		</span><!--
 	 --><span class="app">
-			<a href="#" class="main">
+			<a href="/help/foobar/" class="main">
 				<img src="/images/app-foobar.png" class="unitPng" />
 				<span>Foobar2000</span>
 			</a>
 		</span><!--
 	 --><span class="app">
-			<a href="#" class="main">
+			<a href="/help/mediamonkey/" class="main">
 				<img src="/images/app-mediamonkey.png" class="unitPng" />
 				<span>MediaMonkey</span>
 			</a>

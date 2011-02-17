@@ -338,8 +338,16 @@ dd {
 }
 
 .hl2 {
-	float: right;
+	/*fxloat: right;*/
 	position: relative; /* IE6 */
+}
+
+.hl2 .inner {
+	width: 100%;
+}
+
+.hl2 h2 {
+	margin-top: 30px;
 }
 
 .helplinks .inner {
@@ -510,7 +518,17 @@ dd {
 .instructions h4 {
 	/*clear: both;*/
 	font-weight: bold;
-	color: #ffb1b1;
+	/*color: #ffb1b1;*/
+	color: #fff;
+	font-size: 1.05em;
+	margin-left: 6px;
+	padding-left: 15px;
+	background: url(/images/inst-arrow.png) no-repeat left 5px;
+}
+
+.instructions h4,
+.instructions h4 a {
+	color: #fff;
 }
 
 .instructions .step div.img {
@@ -527,16 +545,38 @@ dd {
 	/*border: 1px solid #f00;*/
 }
 
-.instructions .step div.img img.abs,
-.instructions .step div.img div.abs {
-	display: block;
+.instructions .step div.img img.abs {
+	/*display: block;*/
 	position: absolute;
-	margin: 5px;
+	
 		/*border: 1px solid #f0f;*/
 }
 
+.instructions .step div.img div.abs {
+	position: relative;
+}
+
+.instructions .step div.img img.abs {
+	margin: 5px;
+}
+
+/*.instructions .step div.img div.abs img.abs {
+	display: block;
+	position: absolute;
+	margin: 0;
+}*/
+
 .instructions div.details {
 	padding-left: 15px;
+	padding-bottom: 10px;
 	position: relative;
+}
+
+.instructions div.issue {
+	margin: 7px 0 0 20px;
+	padding: 0 0 1px 10px;
+	color: #ccc;
+	border-left: 1px solid #444852;
+	width: 390px; /* Fixes jQuery animation */
 }
 
