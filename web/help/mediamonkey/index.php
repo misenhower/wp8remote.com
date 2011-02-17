@@ -115,7 +115,7 @@ var showIPaddresses = false;
 	<div class="issue" id="qIPb" style="position:relative;">
 		On some networks, it may be necessary to use the computer's IP address instead of its host name. Click the <strong>IP</strong> button on the last page of the Pairing Utility to toggle between showing the computer's IP and its host name.
 		<br /><br />
-		Also try disabling any firewall or other security software you may be running as this may prevent your phone from connecting to iTunes.
+		Also try disabling any firewall or other security software you may be running as this may prevent your phone from connecting to MediaMonkey.
 	</div>
 	<script type="text/javascript">
 		$('#qIPb').hide();

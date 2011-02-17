@@ -6,9 +6,11 @@
 <h3>Version 1.3</h3>
 <ul>
 	<li>
-		<strong>Added support for Foobar2000 and MediaMonkey.</strong>
-		Requires <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> for Foobar2000
-		or <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> for MediaMonkey.
+		<p>
+			<strong>Added support for Foobar2000 and MediaMonkey.</strong>
+			Requires <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> for Foobar2000
+			or <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> for MediaMonkey.
+		</p>
 	</li>
 	<li>Fixed crash with empty artist names.</li>
 	<li>Misc. bug fixes</li>
