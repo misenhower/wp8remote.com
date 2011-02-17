@@ -3,9 +3,12 @@
 <? define('KOMO_HIDE_BOTTOM_MARKET_LINK', true); ?>
 <? require('header.php'); ?>
 <h2>Control iTunes From Your Phone</h2>
-<p>With Remote, you can control iTunes from your Windows Phone 7 device. You can browse through your iTunes music library and choose playlists, songs, and albums as if you were right in front of your computer &ndash; all from the palm of your hand. Play, pause, control the volume and more.</p>
+<p>With Remote, you can control iTunes, Foobar2000, and MediaMonkey from your Windows Phone 7 device. You can browse through your music library and choose playlists, songs, and albums as if you were right in front of your computer &ndash; all from the palm of your hand. Play, pause, control the volume and more.</p>
 <h3>Browse your Library</h3>
-<p>Remote allows you to see all the artists, albums, songs, and playlists in your iTunes library. You can even use your device's keyboard to search for albums, artists, and songs by name. Once you find the media you're looking for, just tap to start playback.</p>
+<p>Remote allows you to see all the artists, albums, songs, and playlists in your library. You can even use your device's keyboard to search for albums, artists, and songs by name. Once you find the media you're looking for, just tap to start playback.</p>
 <div align="center" style="margin: 50px 0;"><a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/wp7_English_320x50_blue.png" /></a></div>
-<div class="alignbottom subtle">Requires iTunes 10.1 or later and a Wi-fi connection</div>
+<div class="alignbottom subtle">
+	Requires iTunes 10.1 or later and a Wi-fi connection.
+	Plugins required for <a href="/help/foobar/">Foobar2000</a> and <a href="/help/mediamonkey/">MediaMonkey</a>.
+</div>
 <? require('footer.php'); ?>

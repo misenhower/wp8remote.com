@@ -77,6 +77,16 @@ hr {
 	/*width: auto;*/
 }
 
+.subtle a,
+.subtle a:visited {
+	color: #787f90;
+	text-decoration: underline;
+}
+
+.subtle a:hover {
+	color: #fff;
+}
+
 .subtle h4 {
 	font-weight: bold;
 }
@@ -237,7 +247,6 @@ a:hover {
 
 .buttonwrapper {
 	text-align: center;
-	margin: 40px 0;
 }
 
 .buttonwrapper a {
@@ -281,6 +290,7 @@ a:hover {
 	margin: 0.2em 0 0.1em 0;
 	padding: 0;
 	font-size: 1.45em;
+	border: none;
 }
 
 .buttonwrapper a:hover h3 {
@@ -334,7 +344,7 @@ dd {
 
 .hl1 {
 	text-align: center;
-	margin: 40px 0;
+	margin: 25px 0 10px;
 }
 
 .hl2 {
@@ -489,7 +499,9 @@ dd {
 }
 
 
-
+.instructions {
+	margin-bottom: 20px;
+}
 
 
 /*.instructions {

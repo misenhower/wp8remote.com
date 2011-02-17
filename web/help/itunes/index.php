@@ -16,6 +16,8 @@ else
 var showIPaddresses = false;
 
 $(document).ready(function() {
+	$('.ituneshelplink').click(function () { return false; });
+	
 	$('.helplinks a.winselector, .helplinks a.macselector').hover(
 		function() {
 			$('.helplinks .selected').addClass('fakehover');
@@ -55,7 +57,7 @@ $(document).ready(function() {
 			<span class="app selected">
 				<a href="#" class="right winselector<? if ($is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-win.png" class="unitPng" /></a>
 				<a href="#" class="right macselector<? if (!$is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-mac.png" class="unitPng" /></a>
-				<a href="/help/itunes/" class="main">
+				<a href="/help/itunes/" class="main ituneshelplink">
 					<img src="/images/app-itunes.png" class="unitPng" />
 					<span>iTunes</span><!--
 			 --></a>
@@ -86,7 +88,24 @@ $(document).ready(function() {
 	<img src="/images/instructions/itunes-mac-pairingutil1.png" class="abs mac" <?= $mac ?> />
 </div>
 <h3>1. Download and run the Pairing Utility</h3>
-<div class="details"><a href="#">Click here</a> to download the Pairing Utility.  After downloading, open or run the utility.</div>
+<div class="buttonwrapper" style="margin:20px 0 0 42px; position:relative; font-size:0.95em;">
+<a href="/files/Win_iTunesPairingUtility_1.0.6.exe" class="win" style="position:absolute;">
+	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
+	<div>
+		<h3>Download for Windows</h3>
+		<span>Supports Windows XP, Vista, and 7</span>
+		<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.6</span>
+	</div>
+</a>
+<a href="/files/Mac_iTunesPairingUtility_1.0.2.zip" class="mac" style="position:absolute;">
+	<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
+	<div>
+		<h3>Download for Mac OS X</h3>
+		<span>Supports OS X 10.5.8+ and 10.6.5+</span>
+		<span>332kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.2</span>
+	</div>
+</a>
+</div>
 </div>
 
 <div class="step">
@@ -117,7 +136,8 @@ $(document).ready(function() {
 	<img src="/images/instructions/itunes-win-wp7d2.png" class="abs win" />
 	<img src="/images/instructions/itunes-mac-wp7d2.png" class="abs mac" <?= $mac ?> />
 </div>
-<h3>3. Type the PIN from the Pairing Utility into iTunes</h3>
+<h3>3. Enter the passcode from the Pairing Utility</h3>
+<div class="details">iTunes will display a confirmation message after entering the correct passcode.</div>
 </div>
 
 <div class="step">
@@ -130,12 +150,18 @@ $(document).ready(function() {
 	</div>
 </div>
 <h3>4. Confirm that pairing completed successfully</h3>
+<div class="details">The Pairing Utility will display your computer's host name and a PIN to be entered on your phone.</div>
 </div>
 
 <div class="step">
 <div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
-<h3>5. Open Remote on your phone and tap "Add Library"</h3>
-<div class="details">Remote should appear in the list of applications on your phone.  If you haven't purchased Remote yet, you can use the following link to open its Marketplace page:</div>
+<h3>5. Open Remote and tap "Add Library"</h3>
+<div class="details">
+	Remote will appear in the list of applications on your phone.
+	<br /><br />
+	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
+<div align="center" style="margin: 20px 0;"><a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/wp7_English_300x50_blue.png" /></a></div>
+</div>
 </div>
 
 <div class="step">
@@ -175,4 +201,5 @@ $(document).ready(function() {
 </div>
 </div>
 </div>
+<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
 <? require('footer.php'); ?>

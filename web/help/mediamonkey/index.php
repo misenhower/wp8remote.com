@@ -42,13 +42,13 @@ var showIPaddresses = false;
 </div>
 <h3>1. Download and install <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a></h3>
 <div class="details">
-	<a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> is a commercial plugin for MediaMonkey written by <a href="http://melloware.com/" target="_blank">Melloware</a>.  A fully-functional trial version is available.  <!--This plugin also allows you to use other compatible remote applications (for iOS and Android devices) with MediaMonkey.-->
+	<a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> is a commercial plugin for MediaMonkey, written by <a href="http://melloware.com/" target="_blank">Melloware</a>.  A fully-functional trial version is available.  <!--This plugin also allows you to use other compatible remote applications (for iOS and Android devices) with MediaMonkey.-->
 </div>
 <div class="details">
 	Remote for WP7 requires MonkeyTunes 1.5.0 or later for full compatibility.
 </div>
 <div class="details">
-	After the MonkeyTunes installations has completed, open MediaMonkey to continue.
+	After the MonkeyTunes installation has completed, open MediaMonkey.
 </div>
 </div>
 <div class="step">
@@ -56,7 +56,16 @@ var showIPaddresses = false;
 	<img src="/images/instructions/mediamonkey-pairingutil1.png" class="abs win" />
 </div>
 <h3>2. Download and run the Pairing Utility</h3>
-<div class="details"><a href="#">Click here</a> to download the Pairing Utility.  After downloading, open or run the utility.</div>
+<div class="buttonwrapper" style="margin:20px 0;">
+<a href="/files/Win_iTunesPairingUtility_1.0.6.exe">
+	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
+	<div>
+		<h3>Download for Windows</h3>
+		<span>Supports Windows XP, Vista, and 7</span>
+		<span>312kb &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v1.0.6</span>
+	</div>
+</a>
+</div>
 </div>
 
 <div class="step">
