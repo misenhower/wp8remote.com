@@ -1,1 +1,1 @@
-<? header('Location: ./itunes/'); ?>
+<? header('Location: /help/itunes/'); ?>
