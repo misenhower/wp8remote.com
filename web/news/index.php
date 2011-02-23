@@ -3,6 +3,12 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.4</h3>
+<ul>
+	<li><strong>Added the ability to view and modify the star rating for the currently playing song</strong></li>
+	<li>Bug fixes/performance improvements.</li>
+</ul>
+<hr />
 <h3>Version 1.3</h3>
 <ul>
 	<li>
@@ -13,7 +19,7 @@
 		</p>
 	</li>
 	<li>Fixed crash with empty artist names.</li>
-	<li>Misc. bug fixes</li>
+	<li>Misc. bug fixes.</li>
 </ul>
 <hr />
 <h3>Version 1.2</h3>
