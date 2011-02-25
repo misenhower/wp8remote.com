@@ -97,7 +97,7 @@ $(document).ready(function() {
 		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 	</div>
 </a>
-<a href="/files/Mac_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_MAC_VERSION ?>.zip" class="mac" style="position:absolute;">
+<a href="/files/Mac_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_MAC_VERSION ?>.zip" class="mac" style="position:absolute;<? if (!$is_mac) print 'display:none;'; ?>">
 	<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Mac OS X</h3>
