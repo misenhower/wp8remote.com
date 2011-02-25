@@ -37,10 +37,16 @@ var showIPaddresses = false;
 </div>
 <div class="instructions">
 <div class="step">
+<div class="img">
+	<img src="/images/instructions/foobar-touchremoteinstall.png" class="abs win" />
+</div>
 <h3>1. Download and install <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a></h3>
 <div class="details"><a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> is a free (donations accepted) plugin for Foobar2000.</div>
-<div class="details">Remote for WP7 requires foo_touchremote 0.2.4 or later for full compatibility.</div>
-<div class="details">After installing foo_touchremote, open Foobar2000.</div>
+<div class="details">Remote for WP7 requires foo_touchremote 0.2.6 or later for full compatibility.</div>
+<div class="details">
+	After downloading foo_touchremote, select <strong>Library</strong> &rarr; <strong>Configure</strong> from the menu bar and select <strong>Components</strong> from the left side of the Preferences window.  Click the <strong>Install</strong> button and locate the foo_touchremote zip file.
+</div>
+<div class="details">Click <strong>OK</strong> to close the Preferences window and restart Foobar when prompted.</div>
 </div>
 
 <div class="step">
