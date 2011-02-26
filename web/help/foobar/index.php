@@ -78,8 +78,8 @@ var showIPaddresses = false;
 <div class="img">
 	<img src="/images/instructions/foobar-wp7d2.png" class="abs win" />
 </div>
-<h3>4. Open the Touch Remote pane and click "Add a new device"</h3>
-<div class="details">On the left side of the Preferences window, select <strong>Media Library</strong> &rarr; <strong>Remote for iPhone</strong>.  Click the button that says <strong>Add a new device</strong> to continue.</div>
+<h3>4. Open the TouchRemote pane and click "Add a new device"</h3>
+<div class="details">On the left side of the Preferences window, select <strong>Media Library</strong> &rarr; <strong>TouchRemote DACP Server</strong>.  Click the button that says <strong>Add a new device</strong> to continue.</div>
 </div>
 
 <div class="step">
