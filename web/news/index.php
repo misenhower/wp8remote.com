@@ -3,6 +3,15 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.5</h3>
+<ul>
+	<li><strong>Added "genres" pivot item to the Browse Library page.</strong></li>
+	<li><strong>Added "shuffle all" buttons to album, artist, playlist, and genre pages.</strong></li>
+	<li><strong>Added "shuffle all songs" menu item to the Browse Library page.</strong></li>
+	<li>Fixed a bug where list items would disappear after navigating back to a page.</li>
+	<li>Added optional "extended error reporting" setting for more verbose error logging/reporting.  Please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> if you are having trouble with Remote so we can continue to improve the application.</li>
+</ul>
+<hr />
 <h3>Version 1.4</h3>
 <ul>
 	<li><strong>Added the ability to view and modify the star rating for the currently playing song</strong></li>
