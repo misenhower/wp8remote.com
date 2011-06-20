@@ -4,7 +4,7 @@ define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
 define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.1');
 define('KOMO_PAIRINGUTILITY_WIN_SIZE', '312kb');
-define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.0.2');
+define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.0.3');
 define('KOMO_PAIRINGUTILITY_MAC_SIZE', '332kb');
 ?>
 
