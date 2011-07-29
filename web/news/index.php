@@ -3,6 +3,15 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.6</h3>
+<ul>
+	<li><strong>Added Genius Mixes to the list of playlists.</strong></li>
+	<li>Fixed an issue where attempting to play a deleted song would cause Remote to reconnect.</li>
+	<li>Fixed the "play" button the genre list.</li>
+	<li>Fixed an occasional crash during resume from standby.</li>
+	<li>Other minor fixes.</li>
+</ul>
+<hr />
 <h3>Version 1.5</h3>
 <ul>
 	<li><strong>Added "genres" pivot item to the Browse Library page.</strong></li>
