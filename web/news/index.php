@@ -3,6 +3,12 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.7</h3>
+<ul>
+	<li><strong>Added German localization/Deutsche Lokalisierung hinzugefügt.</strong></li>
+	<li>Other minor bug fixes.</li>
+</ul>
+<hr />
 <h3>Version 1.6</h3>
 <ul>
 	<li><strong>Added Genius Mixes to the list of playlists.</strong></li>
