@@ -5,7 +5,7 @@
 <h2>Product News &amp; Updates</h2>
 <h3>Version 1.8</h3>
 <ul>
-	<li><strong>First version for WP7 Mango</strong> - improved list scrolling performance throughout the application.</li>
+	<li><strong>Now enhanced for WP7 Mango</strong> - improved list scrolling performance throughout the application.</li>
 	<li>Fixed some issues with the German translation.</li>
 	<li>Other minor bug fixes.</li>
 </ul>
