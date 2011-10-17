@@ -31,6 +31,20 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 <link rel="image_src" href="http://wp7remoteapp.com/images/RemoteIcon.png" />
 <meta name="description" content="With Remote, you can control iTunes from your Windows Phone 7 device.">
 <meta name="keywords" content="iTunes, remote, windows phone 7, iTunes remote, windows phone 7 app">
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26371738-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
 <? if (!defined('KOMO_LONGPAGE')): ?>
