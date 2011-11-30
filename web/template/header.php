@@ -1,5 +1,5 @@
 <?
-define('KOMO_MARKETPLACE_LINK', 'http://social.zune.net/redirect?type=phoneApp&id=65cf6aa1-5503-e011-9264-00237de2db9e');
+define('KOMO_MARKETPLACE_LINK', 'http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e');
 define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
 define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.1');
@@ -104,5 +104,3 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 	<a href="/"><img src="/images/remote-logo.png" height="73" width="270" /></a>
 	</div>
 	<div class="content">
-		
-		
