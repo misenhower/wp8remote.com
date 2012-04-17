@@ -3,6 +3,14 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.9</h3>
+<ul>
+	<li><strong>Improved library reconnection behavior</strong> &ndash; Remote will now wait for a WiFi connection to become available before attempting to connect or reconnect to your library.</li>
+	<li><strong>Added trial mode</strong> &ndash; Remote now offers a fully-functional 7-day trial.
+	<li>Fixed search result ordering.</li>
+	<li>Other minor bug and appearance fixes.</li>
+</ul>
+<hr />
 <h3>Version 1.8</h3>
 <ul>
 	<li><strong>Now enhanced for WP7 Mango</strong> - improved list scrolling performance throughout the application.</li>
