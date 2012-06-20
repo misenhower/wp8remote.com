@@ -40,9 +40,9 @@ var showIPaddresses = false;
 <div class="img">
 	<img src="/images/instructions/mediamonkey-monkeytunesinstall.png" class="abs win" />
 </div>
-<h3>1. Download and install <a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a></h3>
+<h3>1. Download and install <a href="http://melloware.com/monkeytunes/" target="_blank">MonkeyTunes</a></h3>
 <div class="details">
-	<a href="http://melloware.com/products/monkeytunes/" target="_blank">MonkeyTunes</a> is a commercial plugin for MediaMonkey, written by <a href="http://melloware.com/" target="_blank">Melloware</a>.  A fully-functional trial version is available.  <!--This plugin also allows you to use other compatible remote applications (for iOS and Android devices) with MediaMonkey.-->
+	<a href="http://melloware.com/monkeytunes/" target="_blank">MonkeyTunes</a> is a commercial plugin for MediaMonkey, written by <a href="http://melloware.com/" target="_blank">Melloware</a>.  A fully-functional trial version is available.  <!--This plugin also allows you to use other compatible remote applications (for iOS and Android devices) with MediaMonkey.-->
 </div>
 <div class="details">
 	Remote for WP7 requires MonkeyTunes 1.5.0 or later for full compatibility.
