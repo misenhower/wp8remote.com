@@ -59,7 +59,7 @@ var showIPaddresses = false;
 	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Windows</h3>
-		<span>Supports Windows XP, Vista, and 7</span>
+		<span>Supports Windows XP, Vista, 7, and 8</span>
 		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 	</div>
 </a>

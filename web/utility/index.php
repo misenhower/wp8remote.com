@@ -9,7 +9,7 @@
 		<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Windows</h3>
-			<span>Supports Windows XP, Vista, and 7</span>
+			<span>Supports Windows XP, Vista, 7, and 8</span>
 			<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 		</div>
 	</a>
@@ -17,7 +17,7 @@
 		<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
 		<div>
 			<h3>Download for Mac OS X</h3>
-			<span>Supports OS X 10.5.8+ and 10.6.5+</span>
+			<span>Supports OS X 10.5.8+, 10.6.5+, 10.7, and 10.8</span>
 			<span><?= KOMO_PAIRINGUTILITY_MAC_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_MAC_VERSION ?></span>
 		</div>
 	</a>
