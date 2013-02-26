@@ -3,6 +3,12 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.9.1</h3>
+<ul>
+	<li><strong>Fixed issues with iTunes 11</strong> &ndash; fixed play queue issues with artist, album, and songs.</li>
+	<li>Numerous bug fixes throughout the application.</li>
+</ul>
+<hr />
 <h3>Version 1.9</h3>
 <ul>
 	<li><strong>Improved library reconnection behavior</strong> &ndash; Remote will now wait for a WiFi connection to become available before attempting to connect or reconnect to your library.</li>
@@ -13,7 +19,7 @@
 <hr />
 <h3>Version 1.8</h3>
 <ul>
-	<li><strong>Now enhanced for WP7 Mango</strong> - improved list scrolling performance throughout the application.</li>
+	<li><strong>Now enhanced for WP7 Mango</strong> &ndash; improved list scrolling performance throughout the application.</li>
 	<li>Fixed some issues with the German translation.</li>
 	<li>Other minor bug fixes.</li>
 </ul>
