@@ -101,7 +101,7 @@ var showIPaddresses = false;
 	<img src="/images/instructions/foobar-wp7d3.png" class="abs win" />
 </div>
 <h3>5. Enter the passcode from the Pairing Utility</h3>
-<div class="details">"Windows Phone 7 Device" will appear in the Devices list after entering the correct passcode.</div>
+<div class="details">"Windows Phone Device" will appear in the Devices list after entering the correct passcode.</div>
 </div>
 
 <div class="step">

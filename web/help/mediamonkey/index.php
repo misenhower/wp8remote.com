@@ -86,7 +86,7 @@ var showIPaddresses = false;
 <div class="img">
 	<img src="/images/instructions/mediamonkey-wp7d1.png" class="abs win" />
 </div>
-<h3>3. Click "Windows Phone 7 Device" in MediaMonkey</h3>
+<h3>3. Click "Windows Phone Device" in MediaMonkey</h3>
 <div class="details">This will appear under the "MonkeyTunes" header on the left side of the window.</div>
 </div>
 

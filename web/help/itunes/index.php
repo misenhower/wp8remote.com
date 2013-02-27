@@ -113,10 +113,10 @@ $(document).ready(function() {
 	<img src="/images/instructions/itunes-win-wp7d1.png" class="abs win" />
 	<img src="/images/instructions/itunes-mac-wp7d1.png" class="abs mac" <?= $mac ?> />
 </div>
-<h3>2. Click "Windows Phone 7 Device" in iTunes</h3>
+<h3>2. Click "Windows Phone Device" in iTunes</h3>
 <div class="details">This will appear under the "Devices" header on the left side of the window.</div>
 <div class="details">
-	<h4><a href="#" id="q1a">I don't see "Windows Phone 7 Device" in the sidebar</a></h4>
+	<h4><a href="#" id="q1a">I don't see "Windows Phone Device" in the sidebar</a></h4>
 	<div class="issue" id="q1b" style="position:relative;">
 		<div class="mac" style="position:absolute; background-color:#131417;">Open the iTunes Preferences window (<strong>iTunes</strong> &rarr; <strong>Preferences</strong> from the menu bar),  go to the <strong>Devices</strong> tab, and make sure the option that says <strong>Look for iPod touch, iPhone and iPad Remotes</strong> is checked.</div>
 		<div>Open the iTunes Preferences window (<strong>Edit</strong> &rarr; <strong>Preferences</strong> at the top of the iTunes window),  go to the <strong>Devices</strong> tab, and make sure the option that says <strong>Look for iPod touch, iPhone and iPad Remotes</strong> is checked.</div>
