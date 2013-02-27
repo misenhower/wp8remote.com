@@ -35,15 +35,18 @@ $(document).ready(function() {
 		<p>It may be necessary to install Apple's Bonjour service if you are using Windows.  This service is included with iTunes, but if you are using Foobar2000 or MediaMonkey, you can <a href="http://support.apple.com/kb/DL999" target="_blank">download Bonjour here</a> from Apple.  After installing Bonjour, try opening the Pairing Utility again.</p>
 		<p>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a local area network and try disabling any firewall or security software you may be running.</p>
 	</dd>
-	<dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt>
-	<dd>
-		<p>Make sure iTunes has been configured to look for remotes.  Open the iTunes Preferences (Edit &rarr; Preferences on Windows, or iTunes &rarr; Preferences on OS X), go to the Devices tab, and make sure the option that says "Look for iPod touch, iPhone and iPad Remotes" is checked.</p>
-		<p>If "Windows Phone 7 Device" still doesn't appear within iTunes, try disabling any firewall software that may be running on your machine. On Windows this may include the Windows Firewall which can be disabled from the Control Panel. On OS X this may include the built-in firewall that can be disabled from the Security section in System Preferences.</p>
-	</dd>
+	<!-- <dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt> -->
+	<!-- <dd> -->
+		<!-- <p>Make sure iTunes has been configured to look for remotes.  Open the iTunes Preferences (Edit &rarr; Preferences on Windows, or iTunes &rarr; Preferences on OS X), go to the Devices tab, and make sure the option that says "Look for iPod touch, iPhone and iPad Remotes" is checked.</p> -->
+		<!-- <p>If "Windows Phone 7 Device" still doesn't appear within iTunes, try disabling any firewall software that may be running on your machine. On Windows this may include the Windows Firewall which can be disabled from the Control Panel. On OS X this may include the built-in firewall that can be disabled from the Security section in System Preferences.</p> -->
+	<!-- </dd> -->
 	<dt>The pairing code isn't accepted, iTunes gets stuck on "verifying pairing code," and other issues</dt>
 	<dd>Try closing iTunes and the pairing utility and open them again. If iTunes still doesn't see the pairing utility, you can also try running it from another computer on your network.</dd>
 	<dt>Why is the Pairing Utility needed?</dt>
-	<dd>Third-party Windows Phone 7 application developers do not currently have access to the network protocols needed to complete the pairing procedure with iTunes.  Once you have paired your phone with iTunes, the Pairing Utility is no longer needed and can be deleted from your computer.</dd>
+	<dd>
+		<p>Third-party Windows Phone 7 application developers do not currently have access to the network protocols needed to complete the pairing procedure with iTunes.  Once you have paired your phone with iTunes, the Pairing Utility is no longer needed and can be deleted from your computer.</p>
+		<p>We are currently working on an update for Windows Phone 8 to eliminate the need for the separate pairing utility. Stay tuned!</p>
+	</dd>
 </dl>
 <h4>Application Use</h4>
 <dl>
