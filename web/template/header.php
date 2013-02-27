@@ -12,7 +12,7 @@ define('KOMO_PAIRINGUTILITY_MAC_SIZE', '332kb');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Remote for Windows Phone 7<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
+<title>Remote for Windows Phone<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
 <link rel="stylesheet" href="/css/style.css?1" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js"></script>
@@ -29,8 +29,8 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 <script type="text/javascript" src="http://komodex.com/wordpress/wp-content/themes/komodex/js/unitpngfix.js"></script>
 <![endif]-->
 <link rel="image_src" href="http://wp7remoteapp.com/images/RemoteIcon.png" />
-<meta name="description" content="With Remote, you can control iTunes from your Windows Phone 7 device.">
-<meta name="keywords" content="iTunes, remote, windows phone 7, iTunes remote, windows phone 7 app">
+<meta name="description" content="With Remote, you can control iTunes from your Windows Phone device.">
+<meta name="keywords" content="iTunes, remote, windows phone, windows phone 7, iTunes remote, windows phone 7 app">
 <!-- Google Analytics -->
 <script type="text/javascript">
 
