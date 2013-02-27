@@ -5,7 +5,7 @@
 <h2>Product News &amp; Updates</h2>
 <h3>Version 1.9.1</h3>
 <ul>
-	<li><strong>Fixed issues with iTunes 11</strong> &ndash; fixed play queue issues with artist, album, and songs.</li>
+	<li><strong>Fixed issues with iTunes 11</strong> &ndash; fixed play queue issues with artists, albums, and songs.</li>
 	<li>Numerous bug fixes throughout the application.</li>
 </ul>
 <hr />
