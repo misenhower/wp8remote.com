@@ -3,6 +3,12 @@
 <? define('KOMO_TITLE', 'News'); ?>
 <? require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 1.9.2</h3>
+<ul>
+	<li>Fixed Wi-Fi detection issues with Windows Phone 8 devices.</li>
+	<li>Fixed some reconnection issues.</li>
+</ul>
+<hr />
 <h3>Version 1.9.1</h3>
 <ul>
 	<li><strong>Fixed issues with iTunes 11</strong> &ndash; fixed play queue issues with artists, albums, and songs.</li>
