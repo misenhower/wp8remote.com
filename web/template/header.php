@@ -2,10 +2,10 @@
 define('KOMO_MARKETPLACE_LINK', 'http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e');
 define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
-define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.2');
-define('KOMO_PAIRINGUTILITY_WIN_SIZE', '312kb');
+define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.3');
+define('KOMO_PAIRINGUTILITY_WIN_SIZE', '324kb');
 define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.0.3');
-define('KOMO_PAIRINGUTILITY_MAC_SIZE', '332kb');
+define('KOMO_PAIRINGUTILITY_MAC_SIZE', '336kb');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
