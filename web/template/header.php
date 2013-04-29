@@ -2,8 +2,8 @@
 define('KOMO_MARKETPLACE_LINK', 'http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e');
 define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
-define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.4');
-define('KOMO_PAIRINGUTILITY_WIN_SIZE', '326kb');
+define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.5');
+define('KOMO_PAIRINGUTILITY_WIN_SIZE', '327kb');
 define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.0.3');
 define('KOMO_PAIRINGUTILITY_MAC_SIZE', '336kb');
 ?>
