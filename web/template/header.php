@@ -1,4 +1,4 @@
-<?
+<?php
 define('KOMO_MARKETPLACE_LINK', 'http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e');
 define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
@@ -12,7 +12,7 @@ define('KOMO_PAIRINGUTILITY_MAC_SIZE', '336kb');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Remote for Windows Phone<? if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
+<title>Remote for Windows Phone<?php if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
 <link rel="stylesheet" href="/css/style.css?1" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js"></script>
@@ -47,14 +47,14 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 </script>
 </head>
 
-<? if (!defined('KOMO_LONGPAGE')): ?>
+<?php if (!defined('KOMO_LONGPAGE')): ?>
 <body>
 <div class="fl">&nbsp;</div>
-<? else: ?>
+<?php else: ?>
 <body class="longpage">
-<? endif; ?>
+<?php endif; ?>
 <div class="content-w">
-<? if (defined('KOMO_SHOW_PHONE')): ?>
+<?php if (defined('KOMO_SHOW_PHONE')): ?>
 	<div class="phonepreview unitPng" id="phone">
 		<div id="s1" class="phoneimageslide">
 			<img src="/images/ss/01.png" />
@@ -86,21 +86,21 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 			);
 		</script>
 	</div>
-<? endif; ?>
+<?php endif; ?>
 	<div class="head">
-<? if (defined('KOMO_PAGETITLE')): ?>
+<?php if (defined('KOMO_PAGETITLE')): ?>
 		<div class="pagetitle">
-			<?= KOMO_PAGETITLE ?>
+			<?php echo KOMO_PAGETITLE ?>
 		</div>
-<? elseif (defined('KOMO_TITLE')): ?>
+<?php elseif (defined('KOMO_TITLE')): ?>
 		<div class="pagetitle">
-			<?= KOMO_TITLE ?>
+			<?php echo KOMO_TITLE ?>
 		</div>
-<? else: ?>
+<?php else: ?>
 		<div class="utilitylink">
 			<a href="/utility">Download Pairing Utility</a>
 		</div>
-<? endif; ?>
+<?php endif; ?>
 	<a href="/"><img src="/images/remote-logo.png" height="73" width="270" /></a>
 	</div>
 	<div class="content">

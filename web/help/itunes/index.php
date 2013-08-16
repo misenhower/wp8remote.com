@@ -1,9 +1,9 @@
-<? set_include_path(get_include_path() . PATH_SEPARATOR . '../../template'); ?>
-<? define('KOMO_LONGPAGE', true); ?>
-<? define('KOMO_TITLE', 'iTunes Setup Guide'); ?>
-<? define('KOMO_PAGETITLE', 'Setup Guide'); ?>
-<? require('header.php'); ?>
-<?
+<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../../template'); ?>
+<?php define('KOMO_LONGPAGE', true); ?>
+<?php define('KOMO_TITLE', 'iTunes Setup Guide'); ?>
+<?php define('KOMO_PAGETITLE', 'Setup Guide'); ?>
+<?php require('header.php'); ?>
+<?php
 $is_mac = !(strpos($_SERVER['HTTP_USER_AGENT'], 'Mac OS X') === false);
 
 if (!$is_mac)
@@ -55,8 +55,8 @@ $(document).ready(function() {
 	<span class="inner">
 		<div style="float:right;">
 			<span class="app selected">
-				<a href="#" class="right winselector<? if ($is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-win.png" class="unitPng" /></a>
-				<a href="#" class="right macselector<? if (!$is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-mac.png" class="unitPng" /></a>
+				<a href="#" class="right winselector<?php if ($is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-win.png" class="unitPng" /></a>
+				<a href="#" class="right macselector<?php if (!$is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-mac.png" class="unitPng" /></a>
 				<a href="/help/itunes/" class="main ituneshelplink">
 					<img src="/images/app-itunes.png" class="unitPng" />
 					<span>iTunes</span><!--
@@ -85,24 +85,24 @@ $(document).ready(function() {
 <div class="step">
 <div class="img">
 	<img src="/images/instructions/itunes-win-pairingutil1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-pairingutil1.png" class="abs mac" <?= $mac ?> />
+	<img src="/images/instructions/itunes-mac-pairingutil1.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>1. Download and run the Pairing Utility</h3>
 <div class="buttonwrapper bw2">
-<a href="/files/Win_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
+<a href="/files/Win_iTunesPairingUtility_<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
 	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Windows</h3>
 		<span>Supports Windows XP, Vista, 7, and 8</span>
-		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
+		<span><?php echo KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 	</div>
 </a>
-<a href="/files/Mac_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_MAC_VERSION ?>.zip" class="mac" style="position:absolute;<? if (!$is_mac) print 'display:none;'; ?>">
+<a href="/files/Mac_iTunesPairingUtility_<?php echo KOMO_PAIRINGUTILITY_MAC_VERSION ?>.zip" class="mac" style="position:absolute;<?php if (!$is_mac) print 'display:none;'; ?>">
 	<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Mac OS X</h3>
 		<span>Supports OS X 10.5.8+, 10.6.5+, 10.7, and 10.8</span>
-		<span><?= KOMO_PAIRINGUTILITY_MAC_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_MAC_VERSION ?></span>
+		<span><?php echo KOMO_PAIRINGUTILITY_MAC_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?php echo KOMO_PAIRINGUTILITY_MAC_VERSION ?></span>
 	</div>
 </a>
 </div>
@@ -111,7 +111,7 @@ $(document).ready(function() {
 <div class="step">
 <div class="img">
 	<img src="/images/instructions/itunes-win-wp7d1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7d1.png" class="abs mac" <?= $mac ?> />
+	<img src="/images/instructions/itunes-mac-wp7d1.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>2. Click "Windows Phone Device" in iTunes</h3>
 <div class="details">This will appear under the "Devices" header on the left side of the window.</div>
@@ -134,7 +134,7 @@ $(document).ready(function() {
 <div class="step">
 <div class="img">
 	<img src="/images/instructions/itunes-win-wp7d2.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7d2.png" class="abs mac" <?= $mac ?> />
+	<img src="/images/instructions/itunes-mac-wp7d2.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>3. Enter the passcode from the Pairing Utility</h3>
 <div class="details">iTunes will display a confirmation message after entering the correct passcode.</div>
@@ -144,7 +144,7 @@ $(document).ready(function() {
 <div class="img">
 	<img src="/images/instructions/itunes-win-pairingutil2.png" class="abs win" />
 	<img src="/images/instructions/itunes-win-pairingutil3.png" class="abs win ip" style="display:none;" />
-	<div class="abs mac" <?= $mac ?>>
+	<div class="abs mac" <?php echo $mac ?>>
 		<img src="/images/instructions/itunes-mac-pairingutil2.png" class="abs" />
 		<img src="/images/instructions/itunes-mac-pairingutil3.png" class="abs ip" style="display:none;" />
 	</div>
@@ -160,7 +160,7 @@ $(document).ready(function() {
 	Remote will appear in the list of applications on your phone.
 	<br /><br />
 	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
-<div align="center" style="margin: 20px 0;"><a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/WindowsPhone_208x67_blu.png" /></a></div>
+<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/WindowsPhone_208x67_blu.png" /></a></div>
 </div>
 </div>
 
@@ -168,7 +168,7 @@ $(document).ready(function() {
 <div class="img">
 	<img src="/images/instructions/itunes-win-phonehost.png" class="abs win" />
 	<img src="/images/instructions/itunes-win-phoneip.png" class="abs win ip" style="display:none;" />
-	<div class="abs mac" <?= $mac ?>>
+	<div class="abs mac" <?php echo $mac ?>>
 		<img src="/images/instructions/itunes-mac-phonehost.png" class="abs" />
 		<img src="/images/instructions/itunes-mac-phoneip.png" class="abs ip" style="display:none;" />
 	</div>
@@ -201,5 +201,5 @@ $(document).ready(function() {
 </div>
 </div>
 </div>
-<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
-<? require('footer.php'); ?>
+<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
+<?php require('footer.php'); ?>

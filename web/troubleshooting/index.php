@@ -1,7 +1,7 @@
-<? set_include_path(get_include_path() . PATH_SEPARATOR . '../template'); ?>
-<? define('KOMO_LONGPAGE', true); ?>
-<? define('KOMO_TITLE', 'Troubleshooting'); ?>
-<? require('header.php'); ?>
+<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../template'); ?>
+<?php define('KOMO_LONGPAGE', true); ?>
+<?php define('KOMO_TITLE', 'Troubleshooting'); ?>
+<?php require('header.php'); ?>
 <script>
 $(document).ready(function() {
 	//$('dd').hide();
@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 </script>
 <h2>Troubleshooting</h2>
-<p>To configure iTunes to allow connections from your phone, please <a href="/utility">download the pairing utility</a>.  If you have any trouble using this utility or connecting your phone, please try the steps below or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further assistance.</p>
+<p>To configure iTunes to allow connections from your phone, please <a href="/utility">download the pairing utility</a>.  If you have any trouble using this utility or connecting your phone, please try the steps below or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for further assistance.</p>
 <h3>FAQs</h3>
 <h4>Phone Connection Issues</h4>
 <dl>
@@ -59,5 +59,5 @@ $(document).ready(function() {
 	<dt>Artist, album, or song information is incorrect</dt>
 	<dd>Please check the song information within iTunes.  Sometimes there is additional or incorrect data in the "album artist" field, which can lead to unexpected results in the artist list.  To fix this, right click the affected song(s) and select "Get Info."</dd>
 </dl>
-<p><strong>If your question isn't answered here or if you are still having trouble, please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for further support.</strong></p>
-<? require('footer.php'); ?>
+<p><strong>If your question isn't answered here or if you are still having trouble, please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for further support.</strong></p>
+<?php require('footer.php'); ?>

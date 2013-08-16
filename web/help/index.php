@@ -1,1 +1,1 @@
-<? header('Location: /help/itunes/'); ?>
+<?php header('Location: /help/itunes/'); ?>

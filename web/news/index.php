@@ -1,7 +1,7 @@
-<? set_include_path(get_include_path() . PATH_SEPARATOR . '../template'); ?>
-<? define('KOMO_LONGPAGE', true); ?>
-<? define('KOMO_TITLE', 'News'); ?>
-<? require('header.php'); ?>
+<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../template'); ?>
+<?php define('KOMO_LONGPAGE', true); ?>
+<?php define('KOMO_TITLE', 'News'); ?>
+<?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
 <h3>Version 1.9.2</h3>
 <ul>
@@ -51,7 +51,7 @@
 	<li><strong>Added "shuffle all" buttons to album, artist, playlist, and genre pages.</strong></li>
 	<li><strong>Added "shuffle all songs" menu item to the Browse Library page.</strong></li>
 	<li>Fixed a bug where list items would disappear after navigating back to a page.</li>
-	<li>Added optional "extended error reporting" setting for more verbose error logging/reporting.  Please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> if you are having trouble with Remote so we can continue to improve the application.</li>
+	<li>Added optional "extended error reporting" setting for more verbose error logging/reporting.  Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> if you are having trouble with Remote so we can continue to improve the application.</li>
 </ul>
 <hr />
 <h3>Version 1.4</h3>
@@ -91,7 +91,7 @@
 	<li>List and other miscellaneous performance improvements.</li>
 	<li>
 		<p>Added experimental support for alternate (non-iTunes) DACP servers. Enter a port with the host name (e.g., 192.168.0.100:3690) to connect to a DACP server on an alternate port and disable the iTunes version check.</p>
-		<p><em>Note: we do not officially support using Remote with applications other than iTunes 10.1+ at this time.  Please <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for more information.</em></p>
+		<p><em>Note: we do not officially support using Remote with applications other than iTunes 10.1+ at this time.  Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for more information.</em></p>
 	</li>
 </ul>
 <hr />
@@ -99,4 +99,4 @@
 <ul>
 	<li>Initial release.</li>
 </ul>
-<? require('footer.php'); ?>
+<?php require('footer.php'); ?>

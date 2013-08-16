@@ -1,8 +1,8 @@
-<? set_include_path(get_include_path() . PATH_SEPARATOR . '../../template'); ?>
-<? define('KOMO_LONGPAGE', true); ?>
-<? define('KOMO_TITLE', 'Foobar2000 Setup Guide'); ?>
-<? define('KOMO_PAGETITLE', 'Setup Guide'); ?>
-<? require('header.php'); ?>
+<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../../template'); ?>
+<?php define('KOMO_LONGPAGE', true); ?>
+<?php define('KOMO_TITLE', 'Foobar2000 Setup Guide'); ?>
+<?php define('KOMO_PAGETITLE', 'Setup Guide'); ?>
+<?php require('header.php'); ?>
 <script type="text/javascript">
 var showIPaddresses = false;
 </script>
@@ -55,12 +55,12 @@ var showIPaddresses = false;
 </div>
 <h3>2. Download and run the Pairing Utility</h3>
 <div class="buttonwrapper bw2" style="overflow:hidden;">
-<a href="/files/Win_iTunesPairingUtility_<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win">
+<a href="/files/Win_iTunesPairingUtility_<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win">
 	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
 	<div>
 		<h3>Download for Windows</h3>
 		<span>Supports Windows XP, Vista, 7, and 8</span>
-		<span><?= KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?= KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
+		<span><?php echo KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
 	</div>
 </a>
 </div>
@@ -120,7 +120,7 @@ var showIPaddresses = false;
 	Remote will appear in the list of applications on your phone.
 	<br /><br />
 	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
-<div align="center" style="margin: 20px 0;"><a href="<?= KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/WindowsPhone_208x67_blu.png" /></a></div>
+<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/WindowsPhone_208x67_blu.png" /></a></div>
 </div>
 
 </div>
@@ -158,5 +158,5 @@ var showIPaddresses = false;
 </div>
 </div>
 </div>
-<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?= KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
-<? require('footer.php'); ?>
+<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
+<?php require('footer.php'); ?>
