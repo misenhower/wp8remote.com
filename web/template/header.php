@@ -5,8 +5,8 @@ define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.7');
 define('KOMO_PAIRINGUTILITY_WIN_SIZE', '327kb');
 define('KOMO_PAIRINGUTILITY_WIN_SUPPORTS', 'Windows XP, Vista, 7, and 8');
-define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.0.3');
-define('KOMO_PAIRINGUTILITY_MAC_SIZE', '336kb');
+define('KOMO_PAIRINGUTILITY_MAC_VERSION', '1.1.0');
+define('KOMO_PAIRINGUTILITY_MAC_SIZE', '325kb');
 define('KOMO_PAIRINGUTILITY_MAC_SUPPORTS', 'OS X 10.5.8, 10.6, 10.7, and 10.8');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
