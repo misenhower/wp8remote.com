@@ -58,14 +58,14 @@ var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.g
 <?php if (defined('KOMO_SHOW_PHONE')): ?>
 	<div class="phonepreview unitPng" id="phone">
 		<div id="s1" class="phoneimageslide">
-			<img src="/images/ss/01.png" />
-			<img src="/images/ss/02.png" style="display:none;" />
-			<img src="/images/ss/03.png" style="display:none;" />
-			<img src="/images/ss/04.png" style="display:none;" />
-			<img src="/images/ss/05.png" style="display:none;" />
-			<img src="/images/ss/06.png" style="display:none;" />
-			<img src="/images/ss/07.png" style="display:none;" />
-			<img src="/images/ss/08.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.01.web.png" />
+			<img src="/images/ss/en.WP8.02.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.03.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.04.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.05.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.06.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.07.web.png" style="display:none;" />
+			<img src="/images/ss/en.WP8.08.web.png" style="display:none;" />
 		</div>
 		<div id="s1cont" class="phoneimageslidecontrols" style="display:none;">
 			<a href="#" class="l" id="slide-left"><img src="/images/slide-left.png" width="40" height="32" /></a>
