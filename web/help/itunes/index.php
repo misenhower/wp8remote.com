@@ -13,7 +13,6 @@ else
 
 ?>
 <script type="text/javascript">
-var showIPaddresses = false;
 
 $(document).ready(function() {
 	$('.ituneshelplink').click(function () { return false; });
@@ -29,10 +28,6 @@ $(document).ready(function() {
 	
 	$('.helplinks a.winselector').click(function() {
 		$('.mac').fadeOut();
-		if (showIPaddresses)
-			$('.ip').show();
-		else
-			$('.ip').hide();
 		$('.helplinks a.winselector').removeClass('unsel');
 		$('.helplinks a.macselector').addClass('unsel');
 		return false;
@@ -40,15 +35,44 @@ $(document).ready(function() {
 	
 	$('.helplinks a.macselector').click(function() {
 		$('.mac').fadeIn();
-		if (showIPaddresses)
-			$('.ip').show();
-		else
-			$('.ip').hide();
 		$('.helplinks a.winselector').addClass('unsel');
 		$('.helplinks a.macselector').removeClass('unsel');
 		return false;
 	});
+
+	updateWPDevice();
 });
+
+var wpDevice_i = -1;
+function updateWPDevice()
+{
+	var timeout = 4000;
+
+	switch (wpDevice_i)
+	{
+		case 0:
+			$('.wpdevice-ss2').fadeIn();
+			wpDevice_i = 1;
+			//timeout = 2000;
+			break;
+
+		case 1:
+			$('.wpdevice-ss3').fadeIn();
+			wpDevice_i = 2;
+			//timeout = 4000;
+			break;
+
+		default:
+			$('.wpdevice-ss2').hide();
+			$('.wpdevice-ss3').fadeOut();
+			wpDevice_i = 0;
+			//timeout = 2000;
+			break;
+	}
+
+	setTimeout(updateWPDevice, timeout);
+}
+
 </script>
 <div style="overflow:hidden; margin-bottom:15px">
 <div class="helplinks hl2">
@@ -84,8 +108,8 @@ $(document).ready(function() {
 <div class="instructions">
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-pairingutil1.png" class="abs mac" <?php echo $mac ?> />
+	<img src="/images/instructions/itunes-win-pairingutility-1.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-pairingutility-1.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>1. Download and run the Pairing Utility</h3>
 <div class="buttonwrapper bw2">
@@ -110,31 +134,24 @@ $(document).ready(function() {
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-wp7d1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7d1.png" class="abs mac" <?php echo $mac ?> />
-</div>
-<h3>2. Click "Windows Phone Device" in iTunes</h3>
-<div class="details">This will appear under the "Devices" header on the left side of the window.</div>
-<div class="details">
-	<h4><a href="#" id="q1a">I don't see "Windows Phone Device" in the sidebar</a></h4>
-	<div class="issue" id="q1b" style="position:relative;">
-		<div class="mac" style="position:absolute; background-color:#131417;">Open the iTunes Preferences window (<strong>iTunes</strong> &rarr; <strong>Preferences</strong> from the menu bar),  go to the <strong>Devices</strong> tab, and make sure the option that says <strong>Look for iPod touch, iPhone and iPad Remotes</strong> is checked.</div>
-		<div>Open the iTunes Preferences window (<strong>Edit</strong> &rarr; <strong>Preferences</strong> at the top of the iTunes window),  go to the <strong>Devices</strong> tab, and make sure the option that says <strong>Look for iPod touch, iPhone and iPad Remotes</strong> is checked.</div>
+	<img src="/images/instructions/itunes-win-wpdevice-1.png" class="abs win wpdevice-ss1" />
+	<img src="/images/instructions/itunes-win-wpdevice-2.png" class="abs win wpdevice-ss2" style="display:none;" />
+	<img src="/images/instructions/itunes-win-wpdevice-3.png" class="abs win wpdevice-ss3" style="display:none;" />
+	<div class="abs mac" <?php echo $mac ?>>
+		<img src="/images/instructions/itunes-mac-wpdevice-1.png" class="abs wpdevice-ss1" />
+		<img src="/images/instructions/itunes-mac-wpdevice-2.png" class="abs wpdevice-ss2" style="display:none;" />
+		<img src="/images/instructions/itunes-mac-wpdevice-3.png" class="abs wpdevice-ss3" style="display:none;" />
 	</div>
-	<script type="text/javascript">
-		$('#q1b').hide();
-		$('#q1a').click(function () {
-			$('#q1b').slideToggle();
-			return false;
-		});
-	</script>
 </div>
+<h3>2. Find "Windows Phone Device" in iTunes</h3>
+<div class="details">If the iTunes sidebar is hidden, "Remote" or "Devices" will appear in the top right corner of the iTunes window.</div>
+<div class="details">If the iTunes sidebar is visible, "Windows Phone Device" will appear under the "Devices" header on the left side of the window.</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-wp7d2.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7d2.png" class="abs mac" <?php echo $mac ?> />
+	<img src="/images/instructions/itunes-win-wp7-pinentry1.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-wp7-pinentry1.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>3. Enter the passcode from the Pairing Utility</h3>
 <div class="details">iTunes will display a confirmation message after entering the correct passcode.</div>
@@ -142,63 +159,31 @@ $(document).ready(function() {
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutil2.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-pairingutil3.png" class="abs win ip" style="display:none;" />
-	<div class="abs mac" <?php echo $mac ?>>
-		<img src="/images/instructions/itunes-mac-pairingutil2.png" class="abs" />
-		<img src="/images/instructions/itunes-mac-pairingutil3.png" class="abs ip" style="display:none;" />
-	</div>
+	<img src="/images/instructions/itunes-win-pairingutility-2.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-pairingutility-2.png" class="abs mac" <?php echo $mac ?> />
 </div>
 <h3>4. Confirm that pairing completed successfully</h3>
-<div class="details">The Pairing Utility will display your computer's host name and a PIN to be entered on your phone.</div>
+<div class="details">The Pairing Utility will display your library's name and a PIN to be entered on your phone.</div>
 </div>
 
 <div class="step">
-<div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
-<h3>5. Open Remote and tap "Add Library"</h3>
+<div class="img"><img src="/images/instructions/remote-firstrun.png" class="abs" /></div>
+<h3>5. Open Remote and tap "Add a Library"</h3>
 <div class="details">
-	Remote will appear in the list of applications on your phone.
+	Once installed, Remote will appear in the list of applications on your phone.
 	<br /><br />
-	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
+	If you haven't purchased or installed Remote, click here to open it in the Windows Phone Marketplace:
 <div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="<?php echo KOMO_WPSTOREBADGE_LARGE ?>" /></a></div>
 </div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-phonehost.png" class="abs win" />
-	<img src="/images/instructions/itunes-win-phoneip.png" class="abs win ip" style="display:none;" />
-	<div class="abs mac" <?php echo $mac ?>>
-		<img src="/images/instructions/itunes-mac-phonehost.png" class="abs" />
-		<img src="/images/instructions/itunes-mac-phoneip.png" class="abs ip" style="display:none;" />
-	</div>
+	<img src="/images/instructions/itunes-win-wp7-pinentry2.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-wp7-pinentry2.png" class="abs mac" <?php echo $mac ?> />
 </div>
-<h3>6. Enter the host and PIN and tap "Save"</h3>
+<h3>6. Enter the PIN and tap "Connect"</h3>
 <div class="details">The phone will save the library details and connect to iTunes.</div>
-<div class="details">
-	<h4><a href="#" id="qIPa">I receive a "connection error" message</a></h4>
-	<div class="issue" id="qIPb" style="position:relative;">
-		On some networks, it may be necessary to use the computer's IP address instead of its host name. Click the <strong>IP</strong> button on the last page of the Pairing Utility to toggle between showing the computer's IP and its host name.
-		<br /><br />
-		Also try disabling any firewall or other security software you may be running as this may prevent your phone from connecting to iTunes.
-	</div>
-	<script type="text/javascript">
-		$('#qIPb').hide();
-		$('#qIPa').click(function () {
-			if (showIPaddresses) {
-				showIPaddresses = false;
-				$('#qIPb').slideUp();
-				$('.ip').fadeOut();
-			}
-			else {
-				showIPaddresses = true;
-				$('#qIPb').slideDown();
-				$('.ip').fadeIn();
-			}
-			return false;
-		});
-	</script>
-</div>
 </div>
 </div>
 <p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
