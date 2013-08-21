@@ -38,20 +38,27 @@ var showIPaddresses = false;
 <div class="instructions">
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-touchremoteinstall.png" class="abs win" />
+	<img src="/images/instructions/foobar-touchremote-install.png" class="abs win" />
 </div>
 <h3>1. Download and install <a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a></h3>
 <div class="details"><a href="http://wintense.com/plugins/foo_touchremote" target="_blank">foo_touchremote</a> is a free (donations accepted) plugin for Foobar2000.</div>
-<div class="details">Remote for WP7 requires foo_touchremote 0.2.6 or later for full compatibility.</div>
+<div class="details">Remote requires foo_touchremote 0.2.6 or later for full compatibility.</div>
 <div class="details">
 	After downloading foo_touchremote, select <strong>Library</strong> &rarr; <strong>Configure</strong> from the menu bar and select <strong>Components</strong> from the left side of the Preferences window.  Click the <strong>Install</strong> button and locate the foo_touchremote zip file.
 </div>
 <div class="details">Click <strong>OK</strong> to close the Preferences window and restart Foobar when prompted.</div>
+<div class="details">
+	If Foobar is unable to load the foo_touchremote plugin, make sure you have the
+	<a href="http://www.microsoft.com/download/en/details.aspx?id=17851">.NET Framework 4</a>
+	and
+	<a href="http://www.microsoft.com/download/en/details.aspx?id=8328"> Visual C++ Runtime</a>
+	installed.
+</div>
 </div>
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-pairingutil1.png" class="abs win" />
+	<img src="/images/instructions/foobar-pairingutility-1.png" class="abs win" />
 </div>
 <h3>2. Download and run the Pairing Utility</h3>
 <div class="buttonwrapper bw2" style="overflow:hidden;">
@@ -82,7 +89,7 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-wp7d1.png" class="abs win" />
+	<img src="/images/instructions/foobar-configuremenu.png" class="abs win" />
 </div>
 <h3>3. Open the Foobar2000 Preferences window</h3>
 <div class="details">Select <strong>Library</strong> &rarr; <strong>Configure</strong> from the menu bar.</div>
@@ -90,7 +97,7 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-wp7d2.png" class="abs win" />
+	<img src="/images/instructions/foobar-touchremote-adddevice.png" class="abs win" />
 </div>
 <h3>4. Open the TouchRemote pane and click "Add a new device"</h3>
 <div class="details">On the left side of the Preferences window, select <strong>Media Library</strong> &rarr; <strong>TouchRemote DACP Server</strong>.  Click the button that says <strong>Add a new device</strong> to continue.</div>
@@ -98,7 +105,7 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-wp7d3.png" class="abs win" />
+	<img src="/images/instructions/foobar-touchremote-wp7-pin.png" class="abs win" />
 </div>
 <h3>5. Enter the passcode from the Pairing Utility</h3>
 <div class="details">"Windows Phone Device" will appear in the Devices list after entering the correct passcode.</div>
@@ -106,20 +113,19 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-pairingutil2.png" class="abs win" />
-	<img src="/images/instructions/foobar-pairingutil3.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/foobar-pairingutility-2.png" class="abs win" />
 </div>
 <h3>6. Confirm that pairing completed successfully</h3>
-<div class="details">The Pairing Utility will display your computer's host name and a PIN to be entered on your phone.</div>
+<div class="details">The Pairing Utility will display your library's name and a PIN to be entered on your phone.</div>
 </div>
 
 <div class="step">
-<div class="img"><img src="/images/instructions/phone-welcome.png" class="abs" /></div>
+<div class="img"><img src="/images/instructions/remote-firstrun.png" class="abs" /></div>
 <h3>7. Open Remote and tap "Add Library"</h3>
 <div class="details">
-	Remote will appear in the list of applications on your phone.
+	Once installed, Remote will appear in the list of applications on your phone.
 	<br /><br />
-	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
+	If you haven't purchased or installed Remote, click here to open it in the Windows Phone Marketplace:
 <div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="<?php echo KOMO_WPSTOREBADGE_LARGE ?>" /></a></div>
 </div>
 
@@ -127,35 +133,10 @@ var showIPaddresses = false;
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/foobar-phonehost.png" class="abs win" />
-	<img src="/images/instructions/foobar-phoneip.png" class="abs win ip" style="display:none;" />
+	<img src="/images/instructions/foobar-wp7-pinentry.png" class="abs win" />
 </div>
 <h3>8. Enter the host and PIN and tap "Save"</h3>
-<div class="details">The phone will save the library details and connect to iTunes.</div>
-<div class="details">
-	<h4><a href="#" id="qIPa">I receive a "connection error" message</a></h4>
-	<div class="issue" id="qIPb" style="position:relative;">
-		On some networks, it may be necessary to use the computer's IP address instead of its host name. Click the <strong>IP</strong> button on the last page of the Pairing Utility to toggle between showing the computer's IP and its host name.
-		<br /><br />
-		Also try disabling any firewall or other security software you may be running as this may prevent your phone from connecting to Foobar2000.
-	</div>
-	<script type="text/javascript">
-		$('#qIPb').hide();
-		$('#qIPa').click(function () {
-			if (showIPaddresses) {
-				showIPaddresses = false;
-				$('#qIPb').slideUp();
-				$('.ip').fadeOut();
-			}
-			else {
-				showIPaddresses = true;
-				$('#qIPb').slideDown();
-				$('.ip').fadeIn();
-			}
-			return false;
-		});
-	</script>
-</div>
+<div class="details">The phone will save the library details and connect to Foobar2000.</div>
 </div>
 </div>
 <p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	

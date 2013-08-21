@@ -144,7 +144,7 @@ function updateWPDevice()
 	</div>
 </div>
 <h3>2. Find "Windows Phone Device" in iTunes</h3>
-<div class="details">If the iTunes sidebar is hidden, "Remote" or "Devices" will appear in the top right corner of the iTunes window.</div>
+<div class="details">"Remote" or "Devices" will appear in the top right corner of the iTunes window.</div>
 <div class="details">If the iTunes sidebar is visible, "Windows Phone Device" will appear under the "Devices" header on the left side of the window.</div>
 </div>
 
