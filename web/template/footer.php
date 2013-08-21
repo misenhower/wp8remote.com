@@ -15,7 +15,7 @@
 			</span>
 		</div>
 <?php if (!defined('KOMO_HIDE_BOTTOM_MARKET_LINK')): ?>
-		<a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank" style="float:right"><img src="/images/WindowsPhone_125x40_blu.png" /></a>
+		<a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank" style="float:right"><img src="<?php echo KOMO_WPSTOREBADGE_SMALL ?>" /></a>
 <?php endif; ?>
 	<div class="copy"><em>Copyright <?php echo date('Y'); ?> Komodex Systems LLC. All rights reserved. All trademarks are the property of their respective owners.</em></div>
 	</div>

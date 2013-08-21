@@ -120,7 +120,7 @@ var showIPaddresses = false;
 	Remote will appear in the list of applications on your phone.
 	<br /><br />
 	If you haven't purchased Remote, click here to open it in the Windows Phone Marketplace:
-<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="/images/WindowsPhone_208x67_blu.png" /></a></div>
+<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="<?php echo KOMO_WPSTOREBADGE_LARGE ?>" /></a></div>
 </div>
 
 </div>

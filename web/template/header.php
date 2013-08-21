@@ -2,6 +2,9 @@
 define('KOMO_MARKETPLACE_LINK', 'http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e');
 define('KOMO_CONTACT_LINK', 'http://komodex.com/contact');
 
+define('KOMO_WPSTOREBADGE_LARGE', '/images/258x67_WPS_Download_wpcyan.png');
+define('KOMO_WPSTOREBADGE_SMALL', '/images/154x40_WPS_Download_wpcyan.png');
+
 define('KOMO_PAIRINGUTILITY_WIN_VERSION', '1.1.7');
 define('KOMO_PAIRINGUTILITY_WIN_SIZE', '327kb');
 define('KOMO_PAIRINGUTILITY_WIN_SUPPORTS', 'Windows XP, Vista, 7, and 8');
