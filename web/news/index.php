@@ -5,7 +5,7 @@
 <h2>Product News &amp; Updates</h2>
 <h3>Version 2.0</h3>
 <ul>
-	<li><strong>Now enhanced for WP8</strong> &ndash; featuring high resolution images and improved performance on WP8 devices.</li>
+	<li><strong>Now enhanced for WP8</strong> &ndash; high resolution images and improved performance on WP8 devices.</li>
 	<li>
 		<strong>Bonjour</strong> &ndash; Remote now uses Bonjour to automatically adapt to network changes, making pairing easier and more reliable.
 		<ul style="margin-top: 0.4em">
@@ -13,7 +13,7 @@
 			<li><strong>WP7:</strong> The pairing utility is still needed for WP7 devices, but pairing is now easier and no longer requires you to enter your computer's hostname.</li>
 		</ul>
 	</li>
-	<li><strong>iTunes 11 Play Queue</strong> &ndash; Tap and hold songs, artists, or albums to add them to the play queue.</li>
+	<li><strong>iTunes 11 Play Queue</strong> &ndash; Tap and hold songs, artists, or albums to add them to the play queue. Tap the song name on the Now Playing page to view a list of upcoming songs.</li>
 	<li>Significant performance improvements when loading large playlists, video/TV show libraries, etc.</li>
 	<li>A new Now Playing page and other UI improvements.</li>
 </ul>
