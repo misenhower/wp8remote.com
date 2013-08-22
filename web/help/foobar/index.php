@@ -32,6 +32,11 @@
 	</span>
 </div>
 </div>
+<p>
+	<strong>These instructions are for the WP7 version of Remote.</strong>
+	If you have a WP8 device, it is not necessary to download the Pairing Utility when using Remote 2.0.
+	Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> if you have any questions.
+</p>
 <div class="instructions">
 <div class="step">
 <div class="img">
