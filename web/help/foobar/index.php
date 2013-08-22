@@ -3,9 +3,6 @@
 <?php define('KOMO_TITLE', 'Foobar2000 Setup Guide'); ?>
 <?php define('KOMO_PAGETITLE', 'Setup Guide'); ?>
 <?php require('header.php'); ?>
-<script type="text/javascript">
-var showIPaddresses = false;
-</script>
 <div style="overflow:hidden; margin-bottom:15px">
 <div class="helplinks hl2">
 	<span class="inner">
