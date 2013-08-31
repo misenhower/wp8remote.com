@@ -3,6 +3,13 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.0.1</h3>
+<ul>
+	<li>The draggable play position bar and star rating controls have been added back to the Now Playing page.</li>
+	<li>Improved library connection behavior when opening the app.</li>
+	<li>Fixed some reconnection issues when navigating back into the app.</li>
+</ul>
+<hr />
 <h3>Version 2.0</h3>
 <ul>
 	<li><strong>Now enhanced for WP8</strong> &ndash; high resolution images and improved performance on WP8 devices.</li>
