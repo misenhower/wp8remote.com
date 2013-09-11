@@ -388,6 +388,40 @@ dd {
 	color: #7c8395;
 }
 
+.helplinks .os
+{
+	display: inline-block;
+	vertical-align: bottom;
+	height: 76px;
+}
+
+.helplinks .os a
+{
+	color: #7c8395;
+	background: #24262b;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	margin-bottom: 6px;
+	/*font-size: 1.1em;*/
+	font-weight: bold;
+	padding: 0 8px;
+}
+
+.helplinks .os a.selected
+{
+	color: #fff;
+	background: #34373e;
+}
+
+.helplinks .os a:hover
+{
+	color: #fff;
+	background: #40444d;
+	text-decoration: none;
+}
+
 .helplinks .app {
 	width: 110px;
 	height: 76px;

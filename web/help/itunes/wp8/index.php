@@ -1,4 +1,4 @@
-<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../../template'); ?>
+<?php set_include_path(get_include_path() . PATH_SEPARATOR . '../../../template'); ?>
 <?php define('KOMO_LONGPAGE', true); ?>
 <?php define('KOMO_TITLE', 'iTunes Setup Guide'); ?>
 <?php define('KOMO_PAGETITLE', 'Setup Guide'); ?>
@@ -79,25 +79,25 @@ function updateWPDevice()
 	<div class="inner">
 		<div style="float:right;">
 			<span class="os">
-				<a href="/help/itunes/" class="selected">WP7</a>
-				<a href="/help/itunes/wp8/">WP8</a>
+				<a href="/help/itunes/">WP7</a>
+				<a href="/help/itunes/wp8/" class="selected">WP8</a>
 			</span><!--
 		 --><span class="app selected">
 				<a href="#" class="right winselector<?php if ($is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-win.png" class="unitPng" /></a>
 				<a href="#" class="right macselector<?php if (!$is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-mac.png" class="unitPng" /></a>
-				<a href="/help/itunes/" class="main ituneshelplink">
+				<a href="/help/itunes/wp8/" class="main ituneshelplink">
 					<img src="/images/app-itunes.png" class="unitPng" width="50" height="42" />
 					<span>iTunes</span><!--
 			 --></a>
 			</span><!--
 		 --><span class="app">
-				<a href="/help/foobar/" class="main">
+				<a href="/help/foobar/wp8/" class="main">
 					<img src="/images/app-foobar.png" class="unitPng" width="50" height="42" />
 					<span>Foobar2000</span>
 				</a>
 			</span><!--
 		 --><span class="app">
-				<a href="/help/mediamonkey/" class="main">
+				<a href="/help/mediamonkey/wp8/" class="main">
 					<img src="/images/app-mediamonkey.png" class="unitPng" width="50" height="42" />
 					<span>MediaMonkey</span>
 				</a>
@@ -110,33 +110,23 @@ function updateWPDevice()
 </div>
 </div>
 <p>
-	<strong>These instructions are for the WP7 version of Remote.</strong>
-	<a href="/help/itunes/wp8/">Click here for WP8 instructions.</a>
+	<strong>These instructions are for the WP8 version of Remote.</strong>
+	<a href="/help/itunes/">Click here for WP7 instructions.</a>
 </p>
 <div class="instructions">
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-pairingutility-1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-pairingutility-1.png" class="abs mac" <?php echo $mac ?> />
+	<img src="/images/instructions/itunes-win-wp8-pairingdialog.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-wp8-pairingdialog.png" class="abs mac" <?php echo $mac ?> />
 </div>
-<h3>1. Download and run the Pairing Utility</h3>
-<div class="buttonwrapper bw2">
-<a href="/files/Win_iTunesPairingUtility_<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?>.exe" class="win" style="position:absolute;">
-	<img src="/images/dl-win.png" width="60" height="64" class="unitPng" />
-	<div>
-		<h3>Download for Windows</h3>
-		<span><?php echo KOMO_PAIRINGUTILITY_WIN_SUPPORTS ?></span>
-		<span><?php echo KOMO_PAIRINGUTILITY_WIN_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?php echo KOMO_PAIRINGUTILITY_WIN_VERSION ?></span>
-	</div>
-</a>
-<a href="/files/Mac_iTunesPairingUtility_<?php echo KOMO_PAIRINGUTILITY_MAC_VERSION ?>.zip" class="mac" style="position:absolute;<?php if (!$is_mac) print 'display:none;'; ?>">
-	<img src="/images/dl-mac.png" width="60" height="64" class="unitPng" />
-	<div>
-		<h3>Download for Mac OS X</h3>
-		<span><?php echo KOMO_PAIRINGUTILITY_MAC_SUPPORTS ?></span>
-		<span><?php echo KOMO_PAIRINGUTILITY_MAC_SIZE ?> &nbsp;&nbsp;&ndash;&nbsp;&nbsp; v<?php echo KOMO_PAIRINGUTILITY_MAC_VERSION ?></span>
-	</div>
-</a>
+<h3>1. Open Remote and tap "Add a Library"</h3>
+<div class="details">
+	Once installed, Remote will appear in the list of applications on your phone.
+	<br /><br />
+	If you have already paired with another library, open the menu at the bottom of the screen, tap "choose library", and tap the "add" button.
+	<br /><br />
+	If you haven't purchased or installed Remote, click here to open it in the Windows Phone Marketplace:
+	<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="<?php echo KOMO_WPSTOREBADGE_LARGE ?>" /></a></div>
 </div>
 </div>
 
@@ -158,44 +148,17 @@ function updateWPDevice()
 
 <div class="step">
 <div class="img">
-	<img src="/images/instructions/itunes-win-wp7-pinentry1.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7-pinentry1.png" class="abs mac" <?php echo $mac ?> />
+	<img src="/images/instructions/itunes-win-wp8-pinentry.png" class="abs win" />
+	<img src="/images/instructions/itunes-mac-wp8-pinentry.png" class="abs mac" <?php echo $mac ?> />
 </div>
-<h3>3. Enter the passcode from the Pairing Utility</h3>
-<div class="details">iTunes will display a confirmation message after entering the correct passcode.</div>
-</div>
-
-<div class="step">
-<div class="img">
-	<img src="/images/instructions/itunes-win-pairingutility-2.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-pairingutility-2.png" class="abs mac" <?php echo $mac ?> />
-</div>
-<h3>4. Confirm that pairing completed successfully</h3>
-<div class="details">The Pairing Utility will display your library's name and a PIN to be entered on your phone.</div>
-</div>
-
-<div class="step">
-<div class="img"><img src="/images/instructions/remote-firstrun.png" class="abs" /></div>
-<h3>5. Open Remote and tap "Add a Library"</h3>
+<h3>3. Enter the passcode from Remote</h3>
 <div class="details">
-	Once installed, Remote will appear in the list of applications on your phone.
+	iTunes will display a confirmation message after entering the correct passcode.
 	<br /><br />
-	If you haven't purchased or installed Remote, click here to open it in the Windows Phone Marketplace:
-<div align="center" style="margin: 20px 0;"><a href="<?php echo KOMO_MARKETPLACE_LINK ?>" target="_blank"><img src="<?php echo KOMO_WPSTOREBADGE_LARGE ?>" /></a></div>
-</div>
-</div>
-
-<div class="step">
-<div class="img">
-	<img src="/images/instructions/itunes-win-wp7-pinentry2.png" class="abs win" />
-	<img src="/images/instructions/itunes-mac-wp7-pinentry2.png" class="abs mac" <?php echo $mac ?> />
-</div>
-<h3>6. Enter the PIN and tap "Connect"</h3>
-<div class="details">
-	Remote will save the library details and connect to iTunes.
+	Once pairing is complete, Remote will connect to iTunes.
 </div>
 </div>
 
 </div>
-<p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>
+<p><strong>If you have any trouble pairing, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>
 <?php require('footer.php'); ?>

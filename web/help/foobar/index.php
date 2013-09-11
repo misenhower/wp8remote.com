@@ -7,7 +7,11 @@
 <div class="helplinks hl2">
 	<div class="inner">
 		<div style="float:right;">
-			<span class="app">
+			<span class="os">
+				<a href="/help/foobar/" class="selected">WP7</a>
+				<a href="/help/foobar/wp8/">WP8</a>
+			</span><!--
+		 --><span class="app">
 				<a href="/help/itunes/" class="main">
 					<img src="/images/app-itunes.png" class="unitPng" width="50" height="42" />
 					<span>iTunes</span><!--
@@ -34,8 +38,7 @@
 </div>
 <p>
 	<strong>These instructions are for the WP7 version of Remote.</strong>
-	If you have a WP8 device, it is not necessary to download the Pairing Utility when using Remote 2.0.
-	Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> if you have any questions.
+	<a href="/help/foobar/wp8/">Click here for WP8 instructions.</a>
 </p>
 <div class="instructions">
 <div class="step">
@@ -138,8 +141,11 @@
 	<img src="/images/instructions/foobar-wp7-pinentry.png" class="abs win" />
 </div>
 <h3>8. Enter the host and PIN and tap "Save"</h3>
-<div class="details">The phone will save the library details and connect to Foobar2000.</div>
+<div class="details">
+	Remote will save the library details and connect to Foobar2000.
 </div>
+</div>
+
 </div>
 <p><strong>If you have any trouble using the pairing utility or connecting your phone, please check the <a href="/troubleshooting">troubleshooting page</a> or <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for support.</strong></p>	
 <?php require('footer.php'); ?>
