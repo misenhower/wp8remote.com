@@ -78,26 +78,26 @@ function updateWPDevice()
 <div class="helplinks hl2">
 	<div class="inner">
 		<div style="float:right;">
-			<div class="app selected">
+			<span class="app selected">
 				<a href="#" class="right winselector<?php if ($is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-win.png" class="unitPng" /></a>
 				<a href="#" class="right macselector<?php if (!$is_mac) print(' unsel'); ?>"><img src="/images/app-itunes-mac.png" class="unitPng" /></a>
 				<a href="/help/itunes/" class="main ituneshelplink">
 					<img src="/images/app-itunes.png" class="unitPng" width="50" height="42" />
 					<span>iTunes</span><!--
 			 --></a>
-			</div><!--
-		 --><div class="app">
+			</span><!--
+		 --><span class="app">
 				<a href="/help/foobar/" class="main">
 					<img src="/images/app-foobar.png" class="unitPng" width="50" height="42" />
 					<span>Foobar2000</span>
 				</a>
-			</div><!--
-		 --><div class="app">
+			</span><!--
+		 --><span class="app">
 				<a href="/help/mediamonkey/" class="main">
 					<img src="/images/app-mediamonkey.png" class="unitPng" width="50" height="42" />
 					<span>MediaMonkey</span>
 				</a>
-			</div>
+			</span>
 		</div>
 		<div class="inst">
 			<h2>iTunes Setup Guide</h2>

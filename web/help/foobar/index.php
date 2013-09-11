@@ -7,24 +7,24 @@
 <div class="helplinks hl2">
 	<div class="inner">
 		<div style="float:right;">
-			<div class="app">
+			<span class="app">
 				<a href="/help/itunes/" class="main">
 					<img src="/images/app-itunes.png" class="unitPng" width="50" height="42" />
 					<span>iTunes</span><!--
 			 --></a>
-			</div><!--
-		 --><div class="app selected">
+			</span><!--
+		 --><span class="app selected">
 				<a href="/help/foobar/" class="main">
 					<img src="/images/app-foobar.png" class="unitPng" width="50" height="42" />
 					<span>Foobar2000</span>
 				</a>
-			</div><!--
-		 --><div class="app">
+			</span><!--
+		 --><span class="app">
 				<a href="/help/mediamonkey/" class="main">
 					<img src="/images/app-mediamonkey.png" class="unitPng" width="50" height="42" />
 					<span>MediaMonkey</span>
 				</a>
-			</div>
+			</span>
 		</div>
 		<div class="inst">
 			<h2>Foobar2000 Setup Guide</h2>
