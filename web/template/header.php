@@ -17,7 +17,7 @@ define('KOMO_PAIRINGUTILITY_MAC_SUPPORTS', 'OS X 10.5.8, 10.6, 10.7, 10.8, and 1
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Remote for Windows Phone<?php if (defined('KOMO_TITLE')) print " &mdash; " . KOMO_TITLE; ?></title>
-<link rel="stylesheet" href="/css/style.css?1" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/style.css?2" type="text/css" media="screen" />
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.cycle.all.min.js?3.0.3"></script>
 <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
