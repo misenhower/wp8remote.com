@@ -5,31 +5,31 @@
 <?php require('header.php'); ?>
 <div style="overflow:hidden; margin-bottom:15px">
 <div class="helplinks hl2">
-	<span class="inner">
+	<div class="inner">
 		<div style="float:right;">
-			<span class="app">
+			<div class="app">
 				<a href="/help/itunes/" class="main">
 					<img src="/images/app-itunes.png" class="unitPng" />
 					<span>iTunes</span><!--
 			 --></a>
-			</span><!--
-		 --><span class="app selected">
+			</div><!--
+		 --><div class="app selected">
 				<a href="/help/foobar/" class="main">
 					<img src="/images/app-foobar.png" class="unitPng" />
 					<span>Foobar2000</span>
 				</a>
-			</span><!--
-		 --><span class="app">
+			</div><!--
+		 --><div class="app">
 				<a href="/help/mediamonkey/" class="main">
 					<img src="/images/app-mediamonkey.png" class="unitPng" />
 					<span>MediaMonkey</span>
 				</a>
-		</span>
+			</div>
 		</div>
-		<span class="inst">
+		<div class="inst">
 			<h2>Foobar2000 Setup Guide</h2>
-		</span>
-	</span>
+		</div>
+	</div>
 </div>
 </div>
 <p>

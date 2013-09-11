@@ -28,30 +28,30 @@
 	</a>
 </div>
 <div class="helplinks hl1">
-	<span class="inner">
-		<span class="inst">
+	<div class="inner">
+		<div class="inst">
 			<h3>Setup Guide</h3>
 			<span>Select an application:</span>
-		</span><!--
-	 --><span class="app">
+		</div><!--
+	 --><div class="app">
 			<a href="/help/itunes/" class="main">
 				<img src="/images/app-itunes.png" class="unitPng" />
 				<span>iTunes</span><!--
 		 --></a>
-		</span><!--
-	 --><span class="app">
+		</div><!--
+	 --><div class="app">
 			<a href="/help/foobar/" class="main">
 				<img src="/images/app-foobar.png" class="unitPng" />
 				<span>Foobar2000</span>
 			</a>
-		</span><!--
-	 --><span class="app">
+		</div><!--
+	 --><div class="app">
 			<a href="/help/mediamonkey/" class="main">
 				<img src="/images/app-mediamonkey.png" class="unitPng" />
 				<span>MediaMonkey</span>
 			</a>
-		</span>
-	</span>
+		</div>
+	</div>
 </div>
 <p><strong>If you have any trouble using the pairing utility or connecting your phone to iTunes, please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> for assistance.</strong></p>
 <?php require('footer.php'); ?>
