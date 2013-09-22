@@ -3,6 +3,12 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.0.2</h3>
+<ul>
+	<li>Fixed a few crashes.</li>
+	<li>Minor display improvements.</li>
+</ul>
+<hr />
 <h3>Version 2.0.1</h3>
 <ul>
 	<li>The draggable play position bar and star rating controls have been added back to the Now Playing page.</li>
