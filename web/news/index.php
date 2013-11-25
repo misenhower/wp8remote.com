@@ -3,6 +3,22 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.1</h3>
+<ul>
+	<li><strong>Podcasts, TV Shows, and Movies</strong> &ndash; improved appearance and functionality.</li>
+	<li><strong>Additional media types</strong> &ndash; added support for Audiobooks, iTunes U, and Internet Radio.</li>
+	<li><strong>Shared libraries</strong> &ndash; Remote now allows you to browse and select media from shared iTunes libraries.</li>
+	<li><strong>Automatic Wake-on-LAN</strong> &ndash; Remote now attempts to wake your computer when connecting.</li>
+	<li>Improved search functionality.</li>
+	<li>Added support for playlist folders</li>
+	<li>Added support for HTTP compression (gzip).</li>
+	<li>Fixed an issue with removing items from the play queue.</li>
+	<li>The currently playing song is now indicated with a speaker icon.</li>
+	<li>Unchecked songs now appear dimmed.</li>
+	<li>Added a navigation bar to the bottom of all library pages.</li>
+	<li>Other bug fixes.</li>
+</ul>
+<hr />
 <h3>Version 2.0.2</h3>
 <ul>
 	<li>Fixed a few crashes.</li>
