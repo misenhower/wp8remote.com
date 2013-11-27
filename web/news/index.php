@@ -10,7 +10,7 @@
 	<li><strong>Shared libraries</strong> &ndash; Remote now allows you to browse and select media from shared iTunes libraries.</li>
 	<li><strong>Automatic Wake-on-LAN</strong> &ndash; Remote now attempts to wake your computer when connecting.</li>
 	<li>Improved search functionality.</li>
-	<li>Added support for playlist folders</li>
+	<li>Added support for playlist folders.</li>
 	<li>Added support for HTTP compression (gzip).</li>
 	<li>Fixed an issue with removing items from the play queue.</li>
 	<li>The currently playing song is now indicated with a speaker icon.</li>
