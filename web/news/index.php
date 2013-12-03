@@ -3,6 +3,14 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.1.1</h3>
+<ul>
+	<li>Fixed an issue with albums playing out of order.</li>
+	<li>Fixed an issue with removing items from the play queue on WP7.</li>
+	<li>Fixed a few crashes.</li>
+	<li>Added experimental support for forked-daapd.</li>
+</ul>
+<hr />
 <h3>Version 2.1</h3>
 <ul>
 	<li><strong>Podcasts, TV Shows, and Movies</strong> &ndash; improved appearance and functionality.</li>
