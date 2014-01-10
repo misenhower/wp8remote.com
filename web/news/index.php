@@ -3,6 +3,17 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2</h3>
+<ul>
+	<li><strong>iTunes Radio</strong> &ndash; Added support for browsing iTunes Radio stations and selecting "play more like this" and "never play this song".</li>
+	<li><strong>Genius Shuffle</strong> &ndash; Available from the application bar at the bottom of the Browse Library page.</li>
+	<li>Modified behavior when adding items to the play queue. Remote no longer automatically opens the Now Playing page when adding items to the queue. The Now Playing page can still be accessed from the application bar at the bottom of Browse pages.</li>
+	<li>Improved initial pairing reliability and compatibility with Avahi (and forked-daapd) by prioritizing the correct IP address in Bonjour.</li>
+	<li>Fixed a crash caused by browsing to albums with no artist names.</li>
+	<li>Fixed an issue with special characters in artist names on Foobar2000.</li>
+	<li>Fixed a few other crashes.</li>
+</ul>
+<hr />
 <h3>Version 2.1.1</h3>
 <ul>
 	<li>Fixed an issue with albums playing out of order.</li>
