@@ -3,6 +3,12 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2.1</h3>
+<ul>
+	<li>Fixed an issue that caused Remote to lose paired libraries in certain situations.</li>
+	<li>Fixed some crashes and other bugs.</li>
+</ul>
+<hr />
 <h3>Version 2.2</h3>
 <ul>
 	<li><strong>iTunes Radio</strong> &ndash; Added support for browsing iTunes Radio stations and selecting "play more like this" and "never play this song".</li>
