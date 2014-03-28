@@ -3,6 +3,12 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2.2</h3>
+<ul>
+	<li>Improved support for 1080p devices.</li>
+	<li>Fixed a crash when browsing Internet Radio stations.</li>
+</ul>
+<hr />
 <h3>Version 2.2.1</h3>
 <ul>
 	<li>Fixed an issue that caused Remote to lose paired libraries in certain situations.</li>
