@@ -23,7 +23,7 @@ define('KOMO_PAIRINGUTILITY_MAC_SUPPORTS', 'OS X 10.5.8, 10.6, 10.7, 10.8, and 1
 <!--[if IEMobile 7]>
 <link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen"  />
 <![endif]-->
-<link rel="image_src" href="/images/RemoteIcon.png" />
+<link rel="image_src" href="http://wp8remote.com/images/RemoteIcon.png" />
 <meta name="description" content="With Remote, you can control iTunes from your Windows Phone device.">
 <meta name="keywords" content="iTunes, remote, windows phone, windows phone 8, iTunes remote, windows phone 8 app">
 </head>
