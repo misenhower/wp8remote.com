@@ -3,6 +3,12 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2.3</h3>
+<ul>
+	<li>Fixed an issue with Wi-Fi detection on Windows Phone 8.1.</li>
+	<li>Fixed some other minor bugs.</li>
+</ul>
+<hr />
 <h3>Version 2.2.2</h3>
 <ul>
 	<li>Improved support for 1080p devices.</li>
