@@ -10,7 +10,7 @@ define('KOMO_PAIRINGUTILITY_WIN_SIZE', '368kb');
 define('KOMO_PAIRINGUTILITY_WIN_SUPPORTS', 'Windows XP, Vista, 7, and 8');
 define('KOMO_PAIRINGUTILITY_MAC_VERSION', '2.0.1');
 define('KOMO_PAIRINGUTILITY_MAC_SIZE', '327kb');
-define('KOMO_PAIRINGUTILITY_MAC_SUPPORTS', 'OS X 10.5.8, 10.6, 10.7, 10.8, 10.9, and 10.10');
+define('KOMO_PAIRINGUTILITY_MAC_SUPPORTS', 'OS X 10.5.8 &ndash; 10.10');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
