@@ -3,6 +3,20 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2.4</h3>
+<ul>
+	<li>Fixed some issues with Bonjour and pairing.</li>
+	<li>
+		<p>Fixed some response parsing issues.</p>
+		<p>
+			<em>
+				Note: It is now possible to pair with Apple TV gen. 2 and 3 devices, but support for these devices is considered &ldquo;experimental&rdquo; at this time.
+				We plan on adding support for more Apple TV features, including a virtual &ldquo;trackpad&rdquo; interface, in a future update to Remote for WP (v2.3).
+			</em>
+		</p>
+	</li>
+</ul>
+<hr />
 <h3>Version 2.2.3</h3>
 <ul>
 	<li>Fixed an issue with Wi-Fi detection on Windows Phone 8.1.</li>
@@ -23,7 +37,7 @@
 <hr />
 <h3>Version 2.2</h3>
 <ul>
-	<li><strong>iTunes Radio</strong> &ndash; Added support for browsing iTunes Radio stations and selecting "play more like this" and "never play this song".</li>
+	<li><strong>iTunes Radio</strong> &ndash; Added support for browsing iTunes Radio stations and selecting &ldquo;play more like this&rdquo; and &ldquo;never play this song&rdquo;.</li>
 	<li><strong>Genius Shuffle</strong> &ndash; Available from the application bar at the bottom of the Browse Library page.</li>
 	<li>Modified behavior when adding items to the play queue. Remote no longer automatically opens the Now Playing page when adding items to the queue. The Now Playing page can still be accessed from the application bar at the bottom of Browse pages.</li>
 	<li>Improved initial pairing reliability and compatibility with Avahi (and forked-daapd) by prioritizing the correct IP address in Bonjour.</li>
@@ -121,18 +135,18 @@
 <ul>
 	<li><strong>Added Genius Mixes to the list of playlists.</strong></li>
 	<li>Fixed an issue where attempting to play a deleted song would cause Remote to reconnect.</li>
-	<li>Fixed the "play" button the genre list.</li>
+	<li>Fixed the &ldquo;play&rdquo; button the genre list.</li>
 	<li>Fixed an occasional crash during resume from standby.</li>
 	<li>Other minor fixes.</li>
 </ul>
 <hr />
 <h3>Version 1.5</h3>
 <ul>
-	<li><strong>Added "genres" pivot item to the Browse Library page.</strong></li>
-	<li><strong>Added "shuffle all" buttons to album, artist, playlist, and genre pages.</strong></li>
-	<li><strong>Added "shuffle all songs" menu item to the Browse Library page.</strong></li>
+	<li><strong>Added &ldquo;genres&rdquo; pivot item to the Browse Library page.</strong></li>
+	<li><strong>Added &ldquo;shuffle all&rdquo; buttons to album, artist, playlist, and genre pages.</strong></li>
+	<li><strong>Added &ldquo;shuffle all songs&rdquo; menu item to the Browse Library page.</strong></li>
 	<li>Fixed a bug where list items would disappear after navigating back to a page.</li>
-	<li>Added optional "extended error reporting" setting for more verbose error logging/reporting.  Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> if you are having trouble with Remote so we can continue to improve the application.</li>
+	<li>Added optional &ldquo;extended error reporting&rdquo; setting for more verbose error logging/reporting.  Please <a href="<?php echo KOMO_CONTACT_LINK ?>">contact us</a> if you are having trouble with Remote so we can continue to improve the application.</li>
 </ul>
 <hr />
 <h3>Version 1.4</h3>
