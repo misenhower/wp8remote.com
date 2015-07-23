@@ -3,6 +3,12 @@
 <?php define('KOMO_TITLE', 'News'); ?>
 <?php require('header.php'); ?>
 <h2>Product News &amp; Updates</h2>
+<h3>Version 2.2.5</h3>
+<ul>
+	<li><strong>Added Composers view.</strong></li>
+	<li>Fixed an issue with artist names when browsing albums on newer versions of iTunes.</li>
+</ul>
+<hr />
 <h3>Version 2.2.4</h3>
 <ul>
 	<li>Fixed some issues with Bonjour and pairing.</li>
