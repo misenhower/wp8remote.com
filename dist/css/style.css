@@ -1,0 +1,587 @@
+/* @override 
+	http://wp7remoteapp.com/css/style.css
+	http://localhost:8888/css/style.css
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+
+img {
+	border: 0 none;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+body {
+	margin: 0; padding: 0;
+	font: 13px/1.35 "Segoe UI", "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.75em;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.45em;
+	margin: 0.5em 0 0.1em 0;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+ul, ol {
+	margin: 0 0 0 1.5em;
+	list-style-type: square;
+}
+
+li {
+	margin: 0 0 0.4em 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	color: #787f90;
+	background-color: #787f90;
+	margin: 1em 0;
+}
+
+.pagetitle {
+	float: right;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.alignbottom {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+}
+
+.subtle {
+	padding: 0.3em 0 0.5em 0.5em;
+	/*color: #4f5d81;*/
+	color: #5e6172;
+	background-color: #1c1d22;
+	font-size: .85em;
+	/*width: 100%;*/
+	/*width: auto;*/
+}
+
+.subtle a,
+.subtle a:visited {
+	color: #787f90;
+	text-decoration: underline;
+}
+
+.subtle a:hover {
+	color: #fff;
+}
+
+.subtle h4 {
+	font-weight: bold;
+}
+
+
+p {
+	margin: 0.2em 0 0.6em 0;
+}
+
+a {
+	/*color: #bebfff;*/
+	text-decoration: none;
+	color: #7bbbff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.fl {
+	float: left;
+	height: 50%;
+	margin-bottom: -300px;
+	
+}
+
+.content-w {
+	/*width:970px;*/
+	width: 900px;
+	margin: 0 auto;
+	clear: both;
+	/*padding: 10px 0;*/
+}
+
+.longpage .content-w {
+	padding-bottom: 15px;
+}
+
+.head {
+	padding: 30px 0 0 0;
+	margin-bottom: 10px;
+}
+
+.content{
+	position: relative;
+	padding: 10px 10px 20px 10px;
+	/*background-color: #1f1f1f;*/
+	background-color: #131417;
+	/*border: 5px solid #151515;*/
+	border: 5px solid #0e0e11;
+	min-height: 355px;
+	/*height: 355px;
+	overflow: auto;*/
+}
+
+.phonepreview {
+	float: right;
+	margin: -5px -15px -10px 0;
+	width: 327px;
+	height: 595px;
+	background: url(/images/phone-large.png) no-repeat;
+	position: relative;
+	z-index: 1;
+}
+
+.phoneimageslide {
+	margin: 48px 0 0 27px;
+	width: 272px;
+	height: 453px;
+}
+
+.phoneimageslide img {
+	width: 272px;
+	height: 453px;
+}
+
+.phoneimageslidecontrols {
+	position: absolute;
+	top: 270px;
+	width: 100%;
+	z-index: 20;
+}
+
+.phoneimageslidecontrols .l {
+	float: left;
+}
+
+.phoneimageslidecontrols .r {
+	float: right;
+}
+
+/*#slide-right:hover {
+	margin-right: -2px;
+}
+
+#slide-left:hover {
+	margin-left: -2px;
+}*/
+
+.utilitylink {
+	float: right;
+	margin: 30px 5px 0 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.utilitylink a {
+	color: #fff;
+	display: block;
+	padding: 5px 10px;
+	border: 2px solid #fff;
+	text-decoration: none;
+}
+
+.utilitylink a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	color: #34373e;
+}
+
+.footer a {
+	color: #787f90;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer div {
+	float: left;
+	margin: 10px 0 0 20px;
+	font-size: 12px;
+}
+
+.footer div.copy {
+	font-size:0.85em;
+	clear:both;
+	margin:0;
+	padding: 0.5em 0;
+	width:100%;
+}
+
+.komolink {
+	float: left;
+	overflow: hidden;
+	padding-left: 6px;
+	border-left: 5px solid #1ba1e2;
+	line-height: 0;
+}
+
+.buttonwrapper {
+	
+}
+
+.bw1 {
+	text-align: center;
+}
+
+.bw2 {
+	text-align: left;
+	margin:20px 0 0 42px;
+	position:relative;
+	font-size:0.95em;
+}
+
+.buttonwrapper a {
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	width: 310px;
+
+	display: inline-block;
+
+	background: #34373e;
+	border: 3px solid #232529;
+	
+	margin: 0 20px;
+	padding: 5px 0 5px 10px;
+}
+
+.buttonwrapper a img {
+	float: left;
+	/*margin: 0 10px 0 0;*/
+}
+
+.buttonwrapper a div {
+	text-align: center;
+}
+
+.buttonwrapper a span {
+	display: block;
+	font-size: .9em;
+	/*line-height: 0;*/
+	line-height: 1em;
+	margin: 0 0 0.2em 0;
+	color: #7c8395;
+}
+
+.buttonwrapper a h3 {
+	/*margin: 8px 0 0 0;*/
+	/*margin: 0;*/
+	/*line-height: 2.25em;*/
+	/*line-height: 1.6em;*/
+	margin: 0.2em 0 0.1em 0;
+	padding: 0;
+	font-size: 1.45em;
+	border: none;
+}
+
+.buttonwrapper a:hover h3 {
+	text-decoration: underline;
+}
+
+.clearfix {
+	clear: both;
+	height: 0;
+}
+
+dl {
+	margin: 10px 0 10px 20px;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+dd {
+	margin: 4px 0 10px 20px;
+	padding: 0 0 1px 10px;
+	color: #ccc;
+	border-left: 1px solid #444852;
+}
+
+.twitterlink a:hover {
+	text-decoration: none;
+}
+
+.twitterlink a span.i {
+	display: inline-block;
+	background: url(/images/twitter.png) no-repeat 0 0;
+	width: 20px;
+	bxorder: 1px solid #f00;
+}
+
+.twitterlink a:hover span.i {
+	background-position: 0 -26px;
+}
+
+.twitterlink a:hover span.t {
+	text-decoration: underline;
+}
+
+/* Help Section */
+.helplinks {
+
+}
+
+.hl1 {
+	text-align: center;
+	margin: 25px 0 20px;
+}
+
+.hl2 {
+	position: relative; /* IE6 */
+}
+
+.hl2 .inner {
+	width: 100%;
+}
+
+.hl2 h2 {
+	margin-top: 30px;
+}
+
+.helplinks .inner {
+	background: #1d1f23;
+	padding: 5px 5px 5px 0;
+	display: inline-block;
+}
+
+.helplinks .inst {
+	display: inline-block;
+	text-align: left;
+	margin: 10px 10px 0 15px;
+	vertical-align: bottom;
+}
+
+.helplinks .inst span {
+	font-size: 0.9em;
+	color: #7c8395;
+}
+
+.helplinks .os
+{
+	display: inline-block;
+	vertical-align: bottom;
+	height: 76px;
+}
+
+.helplinks .os a
+{
+	color: #7c8395;
+	background: #24262b;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	margin-bottom: 6px;
+	/*font-size: 1.1em;*/
+	font-weight: bold;
+	padding: 0 8px;
+}
+
+.helplinks .os a.selected
+{
+	color: #fff;
+	background: #34373e;
+}
+
+.helplinks .os a:hover
+{
+	color: #fff;
+	background: #40444d;
+	text-decoration: none;
+}
+
+.helplinks .app {
+	width: 110px;
+	height: 76px;
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: bottom;
+}
+
+.helplinks .app a.main {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+
+	height: 70px;
+	
+	padding: 6px 0 0 0;
+	background: #24262b;
+}
+
+.helplinks .selected a.main {
+	background: #34373e;
+}
+
+.helplinks .fakehover a.main,
+.helplinks .app a:hover {
+	background: #40444d;
+}
+
+.helplinks a.main span {
+	display: block;
+	font-size: .9em;
+	line-height: 1em;
+	margin-top:0.3em;
+	color: #7c8395;
+}
+
+.helplinks .selected a.main span,
+.helplinks a.main:hover span {
+	color: #fff;
+}
+
+.helplinks .app .right {
+	margin: 0 0 0 -6px;
+	padding: 0 1px 0 5px;
+	float: right;
+	clear: both;
+	height: 38px;
+}
+
+.helplinks .fakehover .right {
+	background: #34373e;
+	border-left: 1px solid #1d1f23;
+	padding-left: 4px;
+}
+
+.helplinks .fakehover .winselector {
+	border-bottom: 1px solid #1d1f23;
+	height: 37px;
+}
+.helplinks .app .right img {
+	margin: 11px 4px 0 0;
+}
+.helplinks .fakehover .macselector {
+	border-top: 1px solid #1d1f23;
+	height: 37px;
+}
+.helplinks .fakehover .macselector img {
+	margin-top: 10px;
+}
+
+.helplinks .fakehover .winselector.unsel,
+.helplinks .fakehover .macselector.unsel {
+
+}
+
+.helplinks .app a.right:hover {
+	border-left: none;
+	padding-left: 5px;
+	border-top: none;
+	border-bottom: none;
+	height: 38px;
+	margin-top: 0;
+}
+
+.helplinks .app a.right:hover img {
+	margin-top: 11px;
+}
+
+.helplinks .app .unsel {
+	background: #1d1f23;
+}
+
+
+.instructions {
+	margin-bottom: 20px;
+}
+
+.instructions .step {
+	clear: both;
+	overflow: hidden; /* Float Clear */
+	width: 100%; /* IE6 */
+	position: relative; /* Partial fix for IE6 */
+}
+
+.instructions h3 {
+	clear: none;
+	border-bottom: 1px solid #7c8395;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+}
+
+.instructions h4 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.05em;
+	margin-left: 6px;
+	padding-left: 15px;
+	background: url(/images/inst-arrow.png) no-repeat left 5px;
+}
+
+.instructions h4,
+.instructions h4 a {
+	color: #fff;
+}
+
+.instructions .step div.img {
+	position: relative;
+	float: right;
+
+	background: #34373e;
+	width: 410px;
+	height: 310px;
+	margin: 0 0 10px 10px;
+}
+
+.instructions .step div.img img.abs {
+	position: absolute;
+}
+
+.instructions .step div.img div.abs {
+	position: relative;
+}
+
+.instructions .step div.img img.abs {
+	margin: 5px;
+}
+
+.instructions div.details {
+	padding-left: 15px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.instructions div.issue {
+	margin: 7px 0 0 20px;
+	padding: 0 0 1px 10px;
+	color: #ccc;
+	border-left: 1px solid #444852;
+	width: 390px; /* Fixes jQuery animation */
+}
+

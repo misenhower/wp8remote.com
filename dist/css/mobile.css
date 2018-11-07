@@ -1,0 +1,4 @@
+/* Disable the vertical centering */
+.fl {
+	display:none;
+}

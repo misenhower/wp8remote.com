@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Remote for Windows Phone &mdash; Troubleshooting</title>
+
+<link rel="stylesheet" href="/css/style.css?2" type="text/css" media="screen" />
+<!-- Mobile -->
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen and (max-device-width: 480px)" />
+<!--[if IEMobile 7]>
+<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen"  />
+<![endif]-->
+<link rel="image_src" href="http://wp8remote.com/images/RemoteIcon.png" />
+<meta name="description" content="With Remote, you can control iTunes from your Windows Phone device.">
+<meta name="keywords" content="iTunes, remote, windows phone, windows phone 8, iTunes remote, windows phone 8 app">
+</head>
+
+
+	<body class="longpage">
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.all.min.js?3.0.3"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+
+<!--[if lte IE 6]>
+<script type="text/javascript">
+var clear="http://komodex.com/wordpress/wp-content/themes/komodex/images/clear.gif";
+</script>
+<script type="text/javascript" src="http://komodex.com/wordpress/wp-content/themes/komodex/js/unitpngfix.js"></script>
+<![endif]-->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26371738-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<div class="content-w">
+	
+	<div class="head">
+		
+			<div class="pagetitle">
+				Troubleshooting
+			</div>
+		
+		
+	<a href="/"><img src="/images/remote-logo.png" height="73" width="270" /></a>
+	</div>
+	<div class="content">
+		<script>
+$(document).ready(function() {
+	//$('dd').hide();
+	//$('dt').click(function(e) {
+	//	$(this).nextUntil('dt').slideDown();
+	//});
+});
+</script>
+<h2>Troubleshooting</h2>
+<p>To configure iTunes to allow connections from your phone, please <a href="/utility">download the pairing utility</a>.  If you have any trouble using this utility or connecting your phone, please try the steps below or <a href="http://komodex.com/contact">contact us</a> for further assistance.</p>
+<h3>FAQs</h3>
+<h4>Phone Connection Issues</h4>
+<dl>
+	<dt>I receive a "Connection Error" message</dt>
+	<dd>
+		<p>First, make sure your phone is connected to your local network via Wi-fi.  Verify that you have entered the host displayed within the Pairing Utility correctly, without any extra spaces or other characters.</p>
+		<!-- <p>On some networks, it may be necessary to add ".local" to the end of the host, such as "mycomputer.local".</p> -->
+		<p>On some networks, it may be necessary to use the computer's IP address instead of its host name. Click the "IP" button on the last page of the Pairing Utility to toggle between showing the computer's IP and its host name.</p>
+		<p>Also please see these support documents from Apple: <a href="http://support.apple.com/kb/HT1947" target="_blank">Initial Setup</a> and <a href="http://support.apple.com/kb/TS1741" target="_blank">Connectivity Issues</a>.</p>
+	</dd>
+	<dt>I receive an "Invalid PIN" message</dt>
+	<dd>Please check the PIN to make sure you have entered it correctly. If you still receive this message, try completing the pairing procedure again by closing and re-opening the pairing utility.</dd>
+	<dt>I receive an iTunes version error</dt>
+	<dd>Only iTunes versions 10.1 and later are currently supported by this application.  Please update to the latest version of iTunes to fix this issue.</dd>
+</dl>
+<h4>Pairing Utility</h4>
+<dl>
+	<dt>The pairing utility will not open</dt>
+	<dd>
+		<p>On Windows, make sure you have the <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7" target="_blank">.NET framework version 3.5</a> installed. On OS X, make sure you are running OS X version 10.5.8 or 10.6.5 or later.</p>
+		<p>It may be necessary to install Apple's Bonjour service if you are using Windows.  This service is included with iTunes, but if you are using Foobar2000 or MediaMonkey, you can <a href="http://support.apple.com/kb/DL999" target="_blank">download Bonjour here</a> from Apple.  After installing Bonjour, try opening the Pairing Utility again.</p>
+		<p>If you receive an error message immediately after launching the application, you may need to check your network settings. Make sure you are connected to a local area network and try disabling any firewall or security software you may be running.</p>
+	</dd>
+	<!-- <dt>"Windows Phone 7 Device" doesn't appear in iTunes</dt> -->
+	<!-- <dd> -->
+		<!-- <p>Make sure iTunes has been configured to look for remotes.  Open the iTunes Preferences (Edit &rarr; Preferences on Windows, or iTunes &rarr; Preferences on OS X), go to the Devices tab, and make sure the option that says "Look for iPod touch, iPhone and iPad Remotes" is checked.</p> -->
+		<!-- <p>If "Windows Phone 7 Device" still doesn't appear within iTunes, try disabling any firewall software that may be running on your machine. On Windows this may include the Windows Firewall which can be disabled from the Control Panel. On OS X this may include the built-in firewall that can be disabled from the Security section in System Preferences.</p> -->
+	<!-- </dd> -->
+	<dt>The pairing code isn't accepted, iTunes gets stuck on "verifying pairing code," and other issues</dt>
+	<dd>Try closing iTunes and the pairing utility and open them again. If iTunes still doesn't see the pairing utility, you can also try running it from another computer on your network.</dd>
+	<dt>Why is the Pairing Utility needed?</dt>
+	<dd>
+		<p>Third-party Windows Phone 7 application developers do not currently have access to the network protocols needed to complete the pairing procedure with iTunes.  Once you have paired your phone with iTunes, the Pairing Utility is no longer needed and can be deleted from your computer.</p>
+		<p>We are currently working on an update for Windows Phone 8 to eliminate the need for the separate pairing utility. Stay tuned!</p>
+	</dd>
+</dl>
+<h4>Application Use</h4>
+<dl>
+	<dt>How do I change the play position for the current song?</dt>
+	<dd>From the Now Playing page, tap and drag the progress bar beneath the displayed album art.</dd>
+	<dt>How can I change repeat and shuffle settings?</dt>
+	<dd>From the Now Playing page, tap the album art.  Buttons for Repeat and Shuffle will appear.</dd>
+	<dt>How do I browse movies, TV shows, and podcasts?</dt>
+	<dd>From the Browse Library page, tap the "More" button in the Application Bar at the bottom of the screen. (This button has an icon with three dots.)</dd>
+	<dt>Artist, album, or song information is incorrect</dt>
+	<dd>Please check the song information within iTunes.  Sometimes there is additional or incorrect data in the "album artist" field, which can lead to unexpected results in the artist list.  To fix this, right click the affected song(s) and select "Get Info."</dd>
+</dl>
+<p><strong>If your question isn't answered here or if you are still having trouble, please <a href="http://komodex.com/contact">contact us</a> for further support.</strong></p>
+
+	</div>
+	<div class="footer">
+		<a href="http://komodex.com/" class="komolink"><img src="/images/komodex-38.png" /></a>
+		<div>
+			<a href="/">Home</a> -
+			<a href="/news">News</a> -
+			<a href="/utility">Pairing Utility</a> -
+			<a href="/help">Setup Guide</a> -
+			<a href="http://komodex.com/contact">Contact</a> -
+			<span class="twitterlink">
+				<a href="http://twitter.com/WP7Remote">
+					<span class="i unitPng">&nbsp;</span>
+					<span class="t">Twitter</span>
+				</a>
+			</span>
+		</div>
+		
+			<a href="http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e" target="_blank" style="float:right"><img src="/images/154x40_WPS_Download_wpcyan.png" /></a>
+		
+	<div class="copy"><em>Copyright <script>document.write(new Date().getFullYear())</script> Komodex Systems LLC. All rights reserved. All trademarks are the property of their respective owners.</em></div>
+	</div>
+</div>
+</body>
+</html>

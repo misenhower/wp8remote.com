@@ -1,0 +1,22 @@
+{
+  "links": {
+    "marketplace": "http://windowsphone.com/s?appid=65cf6aa1-5503-e011-9264-00237de2db9e",
+    "contact": "http://komodex.com/contact"
+  },
+  "badges": {
+    "large": "/images/258x67_WPS_Download_wpcyan.png",
+    "small": "/images/154x40_WPS_Download_wpcyan.png"
+  },
+  "pairingUtility": {
+    "win": {
+      "version": "2.0.0",
+      "size": "368kb",
+      "supports": "Windows XP, Vista, 7, and 8"
+    },
+    "mac": {
+      "version": "2.0.1",
+      "size": "327kb",
+      "supports": "OS X 10.5.8 – 10.10"
+    }
+  }
+}
