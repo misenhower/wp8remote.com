@@ -1,9 +1,4 @@
-/* @override 
-	http://wp7remoteapp.com/css/style.css
-	http://localhost:8888/css/style.css
-*/
-
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
 
 img {
 	border: 0 none;
@@ -111,7 +106,7 @@ a:hover {
 	float: left;
 	height: 50%;
 	margin-bottom: -300px;
-	
+
 }
 
 .content-w {
@@ -246,7 +241,7 @@ a:hover {
 }
 
 .buttonwrapper {
-	
+
 }
 
 .bw1 {
@@ -270,7 +265,7 @@ a:hover {
 
 	background: #34373e;
 	border: 3px solid #232529;
-	
+
 	margin: 0 20px;
 	padding: 5px 0 5px 10px;
 }
@@ -437,7 +432,7 @@ dd {
 	display: block;
 
 	height: 70px;
-	
+
 	padding: 6px 0 0 0;
 	background: #24262b;
 }
