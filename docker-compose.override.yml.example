@@ -21,8 +21,9 @@ version: '3.4'
 #  redirect:
 #    image: schmunk42/nginx-redirect
 #    environment:
-#      SERVER_REDIRECT: wp8remote.com,wp7remote.com,www.wp7remote.com,wpremoteapp.com,www.wpremoteapp.com
-#      VIRTUAL_HOST: www.wp8remote.com
+#      SERVER_REDIRECT: wp8remote.com
+#      SERVER_REDIRECT_SCHEME: https
+#      VIRTUAL_HOST: www.wp8remote.com,wp7remote.com,www.wp7remote.com,wpremoteapp.com,www.wpremoteapp.com
 #      LETSENCRYPT_HOST: www.wp8remote.com
 #      LETSENCRYPT_EMAIL: matt@isenhower.com
 #    networks:
