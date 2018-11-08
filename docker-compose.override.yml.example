@@ -1,0 +1,32 @@
+version: '3.4'
+
+# This adds config options for use with nginx-proxy:
+# https://github.com/jwilder/nginx-proxy
+
+# Alternatively, a public port for nginx could be exposed here.
+
+#services:
+#
+#  nginx:
+#    ports:
+#      - "8080:80"
+#    environment:
+#      VIRTUAL_HOST: wp8remote.com
+#      LETSENCRYPT_HOST: wp8remote.com
+#      LETSENCRYPT_EMAIL: matt@isenhower.com
+#    networks:
+#      - default
+#      - nginx-proxy
+#
+#  redirect:
+#    image: schmunk42/nginx-redirect
+#    environment:
+#      SERVER_REDIRECT: wp8remote.com,wp7remote.com,www.wp7remote.com,wpremoteapp.com,www.wpremoteapp.com
+#      VIRTUAL_HOST: www.wp8remote.com
+#      LETSENCRYPT_HOST: www.wp8remote.com
+#      LETSENCRYPT_EMAIL: matt@isenhower.com
+#
+#networks:
+#  nginx-proxy:
+#    external:
+#      name: nginxproxy_default

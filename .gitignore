@@ -1,1 +1,3 @@
 /node_modules
+/dist/files
+/docker-compose.override.yml
