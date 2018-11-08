@@ -25,6 +25,9 @@ version: '3.4'
 #      VIRTUAL_HOST: www.wp8remote.com
 #      LETSENCRYPT_HOST: www.wp8remote.com
 #      LETSENCRYPT_EMAIL: matt@isenhower.com
+#    networks:
+#      - default
+#      - nginx-proxy
 #
 #networks:
 #  nginx-proxy:
